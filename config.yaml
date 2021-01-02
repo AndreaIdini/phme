@@ -1,0 +1,146 @@
+#baseurl: http://www.phme.it
+baseurl: https://andreaidini.github.io/phme/
+languageCode: it-it
+theme: hugo-theme-stack
+#theme: hugo-theme-terminal
+paginate: 10
+title: Ph.Me
+description: Food for Nerds; da Andrea Idini.
+
+# Change it to your Disqus shortname before using
+disqusShortname: hugo-theme-stack
+
+# Theme i18n support
+# Available values: en, fr, id, ja, ko, pt-br, zh-cn
+DefaultContentLanguage: it
+
+#permalinks:
+#    post: /p/:slug/
+#    page: /:slug/
+
+params:
+    FullWidthTheme: false
+    CenterTheme: true
+    contentTypeName: post
+    
+    mainSections:
+        - "post" 
+        - "posts"
+
+    featuredImageField: image
+    rssFullContent: true
+    favicon:
+
+    footer:
+        since: 2009
+        customText: "Per commenti, scrivimi ad andrea.idini@gmail.com. Static web, no cookies collected."
+
+    dateFormat:
+        published: Jan 02, 2006
+        lastUpdated: Jan 02, 2006 15:04 MST
+
+    sidebar:
+        emoji: false
+        subtitle: '[Ph.Xiv] Food for Nerds; da Andrea Idini.'
+        avatar:
+            local: true
+            src: img/Logo.png
+
+    article:
+        math: true
+        license:
+            enabled: true
+            #default: Licensed under CC BY-NC-SA 4.0
+            default: All rights reserved
+
+    comments:
+        enabled: false
+        provider: disqus
+        utterances:
+            repo:
+            issueTerm: pathname
+            label:
+            theme: preferred-color-scheme
+
+    widgets:
+        enabled:
+            #- search
+            # - archives
+            - tag-cloud
+
+        # archives:
+        #     limit: 5
+        #     path: archives
+
+        tagCloud:
+            limit: 20
+
+    opengraph:
+        twitter:
+            # Your Twitter username
+            site:
+
+            # Available values: summary, summary_large_image
+            card: summary_large_image
+
+    defaultImage:
+        opengraph:
+            enabled: false
+            local: false
+            src:
+
+menu:
+    main:
+        - identifier: home
+          name: Home
+          url: /
+          weight: -100
+          pre: home
+
+        - identifier: WILT
+          name: WILT
+          url: wilt/
+          weight: -99
+          pre: user
+
+        - identifier: chi-siamo
+          name: Chi siamo
+          url: chi-siamo
+          weight: -80
+          pre: user
+
+        - identifier: indice
+          name: Il meglio di
+          url: indice-articoli-piu-apprezzati/
+          weight: -70
+          pre: user
+
+        #- identifier: archives
+        #  name: Archives
+        #  url: archives
+        #  weight: -70
+        #  pre: archives
+
+        #- identifier: search
+        #  name: Search
+        #  url: search
+        #  weight: -60
+        #  pre: search
+
+related:
+    includeNewer: true
+    threshold: 60
+    toLower: false
+    indices:
+        - name: tags
+          weight: 100
+
+        - name: categories
+          weight: 200
+
+markup:
+    highlight:
+        noClasses: false
+    goldmark:
+        renderer:
+            unsafe: true
