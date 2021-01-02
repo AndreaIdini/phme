@@ -1,0 +1,766 @@
+<!DOCTYPE html>
+<html lang="it-it">
+    <head><meta charset='utf-8'>
+<meta name='viewport' content='width=device-width, initial-scale=1'><meta name='description' content='From [User&#39;s Guide to the Universe][1] Il secondo articolo del minimo pratico si concentrerà sulla spiegazione e interpretazione della celebre disuguaglianza di Bell.
+Dopo aver chiarito come la realtà empirica sia necessariamente tanto un punto di arrivo quanto un punto di partenza per la filosofia, ovvero che non sono soltanto le diverse scienze a dover sottostare a giuste considerazioni epistemologiche ma anche la filosofia dalla quale queste considerazioni siano state tratte a dover confrontarsi con i risultati empirici, eccoci ad affrontare uno dei più fraintesi problemi in scienza (e di riflesso in filosofia) che è quello del caso per fornire un altro tassello al minimo pratico.
+&amp;ldquo;Il caso&amp;rdquo; è apparantemente un nodo fondamentale della questione teleologica, motivo per cui spesso approcciato in modo pregiudiziale volto a supportare la propria visione del problema filosofico citato. Questo genera il più spesso delle volte in implicite, e a volte candidamente e orgogliosamente ammesse, aporie apologetiche con velata ammissione di ignoranza: bello il post su un argomento divagando su Keplero ma senza menzione della più importante legge sull&amp;rsquo;argomento stesso, se non in un recentissimo e abbozzato follow up (E qui per un affine commento sul blog italiano di Minstrel).
+Cerchiamo al contrario di dedurre ciò che possiamo dalla realtà e mettere alle corde assunti filosofici che proprio qui possono essere costretti alla fallacia dell&amp;rsquo;aporia irrealistica (ovvero la versione filosofica del &amp;ldquo;con voi non gioco più, e mi porto via il pallone&amp;rdquo;).
+'><title>[Minimo Pratico] Casualità e disuguglianza di Bell</title>
+
+<link rel='canonical' href='https://andreaidini.github.io/phme/blog/2014/12/19/minimo-pratico-casualita-e-disuguglianza-di-bell/'>
+
+<link rel="stylesheet" href="/phme/scss/style.min.css"><meta property='og:title' content='[Minimo Pratico] Casualità e disuguglianza di Bell'>
+<meta property='og:description' content='From [User&#39;s Guide to the Universe][1] Il secondo articolo del minimo pratico si concentrerà sulla spiegazione e interpretazione della celebre disuguaglianza di Bell.
+Dopo aver chiarito come la realtà empirica sia necessariamente tanto un punto di arrivo quanto un punto di partenza per la filosofia, ovvero che non sono soltanto le diverse scienze a dover sottostare a giuste considerazioni epistemologiche ma anche la filosofia dalla quale queste considerazioni siano state tratte a dover confrontarsi con i risultati empirici, eccoci ad affrontare uno dei più fraintesi problemi in scienza (e di riflesso in filosofia) che è quello del caso per fornire un altro tassello al minimo pratico.
+&amp;ldquo;Il caso&amp;rdquo; è apparantemente un nodo fondamentale della questione teleologica, motivo per cui spesso approcciato in modo pregiudiziale volto a supportare la propria visione del problema filosofico citato. Questo genera il più spesso delle volte in implicite, e a volte candidamente e orgogliosamente ammesse, aporie apologetiche con velata ammissione di ignoranza: bello il post su un argomento divagando su Keplero ma senza menzione della più importante legge sull&amp;rsquo;argomento stesso, se non in un recentissimo e abbozzato follow up (E qui per un affine commento sul blog italiano di Minstrel).
+Cerchiamo al contrario di dedurre ciò che possiamo dalla realtà e mettere alle corde assunti filosofici che proprio qui possono essere costretti alla fallacia dell&amp;rsquo;aporia irrealistica (ovvero la versione filosofica del &amp;ldquo;con voi non gioco più, e mi porto via il pallone&amp;rdquo;).
+'>
+<meta property='og:url' content='https://andreaidini.github.io/phme/blog/2014/12/19/minimo-pratico-casualita-e-disuguglianza-di-bell/'>
+<meta property='og:site_name' content='Ph.Me'>
+<meta property='og:type' content='article'><meta property='article:section' content='Posts' /><meta property='article:tag' content='Filosofia' /><meta property='article:tag' content='Fisica' /><meta property='article:tag' content='Meccanica Quantistica' /><meta property='article:published_time' content='2014-12-19T21:29:54&#43;00:00'/><meta property='article:modified_time' content='2014-12-19T21:29:54&#43;00:00'/>
+<meta name="twitter:title" content="[Minimo Pratico] Casualità e disuguglianza di Bell">
+<meta name="twitter:description" content="From [User&#39;s Guide to the Universe][1] Il secondo articolo del minimo pratico si concentrerà sulla spiegazione e interpretazione della celebre disuguaglianza di Bell.
+Dopo aver chiarito come la realtà empirica sia necessariamente tanto un punto di arrivo quanto un punto di partenza per la filosofia, ovvero che non sono soltanto le diverse scienze a dover sottostare a giuste considerazioni epistemologiche ma anche la filosofia dalla quale queste considerazioni siano state tratte a dover confrontarsi con i risultati empirici, eccoci ad affrontare uno dei più fraintesi problemi in scienza (e di riflesso in filosofia) che è quello del caso per fornire un altro tassello al minimo pratico.
+&amp;ldquo;Il caso&amp;rdquo; è apparantemente un nodo fondamentale della questione teleologica, motivo per cui spesso approcciato in modo pregiudiziale volto a supportare la propria visione del problema filosofico citato. Questo genera il più spesso delle volte in implicite, e a volte candidamente e orgogliosamente ammesse, aporie apologetiche con velata ammissione di ignoranza: bello il post su un argomento divagando su Keplero ma senza menzione della più importante legge sull&amp;rsquo;argomento stesso, se non in un recentissimo e abbozzato follow up (E qui per un affine commento sul blog italiano di Minstrel).
+Cerchiamo al contrario di dedurre ciò che possiamo dalla realtà e mettere alle corde assunti filosofici che proprio qui possono essere costretti alla fallacia dell&amp;rsquo;aporia irrealistica (ovvero la versione filosofica del &amp;ldquo;con voi non gioco più, e mi porto via il pallone&amp;rdquo;).
+">
+    </head>
+    <body class="">
+        <div class="container flex on-phone--column align-items--flex-start extended article-page with-toolbar">
+            <aside class="sidebar left-sidebar sticky">
+    <button class="hamburger hamburger--spin" type="button" id="toggle-menu" aria-label="">
+        <span class="hamburger-box">
+            <span class="hamburger-inner"></span>
+        </span>
+    </button>
+
+    <header class="site-info">
+        
+            <figure class="site-avatar">
+                
+                    
+                    
+                    
+                        
+                        <img src="/phme/img/Logo_hu37ab2e1765fb5dde8416722e39cee441_129903_300x0_resize_box_2.png" width="300"
+                            height="298" class="site-logo" loading="lazy" alt="Avatar">
+                    
+                
+
+                
+            </figure>
+        
+        <h1 class="site-name"><a href="https://andreaidini.github.io/phme/">Ph.Me</a></h1>
+        <h2 class="site-description">[Ph.Xiv] Food for Nerds; da Andrea Idini.</h2>
+    </header>
+
+    <ol class="menu" id="main-menu">
+        
+        
+        
+
+        <li >
+            <a href='/phme/phme/'>
+                
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-home" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <polyline points="5 12 3 12 12 3 21 12 19 12" />
+  <path d="M5 12v7a2 2 0 0 0 2 2h10a2 2 0 0 0 2 -2v-7" />
+  <path d="M9 21v-6a2 2 0 0 1 2 -2h2a2 2 0 0 1 2 2v6" />
+</svg>
+
+
+
+                
+                <span>Home</span>
+            </a>
+        </li>
+        
+        
+
+        <li >
+            <a href='/phme/wilt/'>
+                
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-user" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="12" cy="7" r="4" />
+  <path d="M6 21v-2a4 4 0 0 1 4 -4h4a4 4 0 0 1 4 4v2" />
+</svg>
+
+
+
+                
+                <span>WILT</span>
+            </a>
+        </li>
+        
+        
+
+        <li >
+            <a href='/phme/chi-siamo'>
+                
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-user" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="12" cy="7" r="4" />
+  <path d="M6 21v-2a4 4 0 0 1 4 -4h4a4 4 0 0 1 4 4v2" />
+</svg>
+
+
+
+                
+                <span>Chi siamo</span>
+            </a>
+        </li>
+        
+        
+
+        <li >
+            <a href='/phme/indice-articoli-piu-apprezzati/'>
+                
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-user" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="12" cy="7" r="4" />
+  <path d="M6 21v-2a4 4 0 0 1 4 -4h4a4 4 0 0 1 4 4v2" />
+</svg>
+
+
+
+                
+                <span>Il meglio di</span>
+            </a>
+        </li>
+        
+    </ol>
+</aside>
+
+            <main class="main full-width">
+    <div id="article-toolbar">
+        <a href="https://andreaidini.github.io/phme/" class="back-home">
+            <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-chevron-left" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <polyline points="15 6 9 12 15 18" />
+</svg>
+
+
+
+            <span>Back</span>
+        </a>
+    </div>
+
+    <article class="main-article">
+    <header class="article-header">
+
+    <div class="article-details">
+    
+    <header class="article-category">
+        
+            
+                <a href="/phme/categories/ph.ysics/">Ph.ysics</a>
+            
+        
+    </header>
+    
+
+    <h2 class="article-title">
+        <a href="/phme/blog/2014/12/19/minimo-pratico-casualita-e-disuguglianza-di-bell/">[Minimo Pratico] Casualità e disuguglianza di Bell</a>
+    </h2>
+
+    <footer class="article-time">
+        <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-clock" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="12" cy="12" r="9" />
+  <polyline points="12 7 12 12 15 15" />
+</svg>
+
+
+
+        <time class="article-time--published">Dec 19, 2014</time>
+    </footer></div>
+</header>
+
+    <section class="article-content">
+    <figure id="attachment_1522" aria-describedby="caption-attachment-1522" style="width: 300px" class="wp-caption alignleft"><a href="/wp-content/uploads/2014/12/bellsinequality.jpg" rel="lightbox[1554]"><img class="wp-image-1522 size-medium" src="/wp-content/uploads/2014/12/bellsinequality-300x285.jpg" alt="http://usersguidetotheuniverse.com/?page_id=220" width="300" height="285" srcset="http://www.phme.it/wp-content/uploads/2014/12/bellsinequality-300x285.jpg 300w, http://www.phme.it/wp-content/uploads/2014/12/bellsinequality-1024x974.jpg 1024w, http://www.phme.it/wp-content/uploads/2014/12/bellsinequality.jpg 1505w" sizes="(max-width: 300px) 100vw, 300px" /></a><figcaption id="caption-attachment-1522" class="wp-caption-text">From [User's Guide to the Universe][1]</figcaption></figure> 
+<p>Il secondo articolo del minimo pratico si concentrerà sulla spiegazione e interpretazione della celebre <a class="link" href="http://en.wikipedia.org/wiki/Bell%27s_theorem#Bell_inequalities"  target="_blank" rel="noopener"
+    >disuguaglianza di Bell</a>.</p>
+<p>Dopo aver chiarito come la realtà empirica sia necessariamente <a class="link" href="http://www.phme.it/blog/2014/12/07/minimo-pratico-la-necessita-della-pratica/"  target="_blank" rel="noopener"
+    >tanto un punto di arrivo quanto un punto di partenza per la filosofia</a>, ovvero che non sono soltanto le diverse scienze a dover sottostare a giuste considerazioni epistemologiche ma anche la filosofia dalla quale queste considerazioni siano state tratte a dover confrontarsi con i risultati empirici, eccoci ad affrontare uno dei più fraintesi problemi in scienza (e di riflesso in filosofia) che è quello del caso per fornire un altro tassello al minimo pratico.</p>
+<p>&ldquo;Il caso&rdquo; è apparantemente un nodo fondamentale della <a class="link" href="http://www.treccani.it/enciclopedia/teleologia_%28Enciclopedia-Italiana%29/"  target="_blank" rel="noopener"
+    >questione teleologica</a>, motivo per cui spesso approcciato in modo pregiudiziale volto a supportare la propria visione del problema filosofico citato. Questo genera il più spesso delle volte in implicite, e a volte candidamente e orgogliosamente ammesse, <a class="link" href="http://edwardfeser.blogspot.fi/2012/05/oerter-contra-principle-of-causality.html"  target="_blank" rel="noopener"
+    >aporie apologetiche</a> con velata ammissione di ignoranza: bello il post su un argomento divagando su Keplero ma senza menzione della più importante legge sull&rsquo;argomento stesso, se non in un <a class="link" href="http://edwardfeser.blogspot.fi/2014/12/causality-and-radioactive-decay.html"  target="_blank" rel="noopener"
+    >recentissimo e abbozzato follow up</a> <a class="link" href="http://pellegrininellaverita.com/2014/11/28/cortile-dei-gentili-in-dialogo-con-sam-il-caso/"  target="_blank" rel="noopener"
+    >(E qui per un affine commento sul blog italiano di Minstrel).</a></p>
+<p>Cerchiamo al contrario di dedurre ciò che possiamo dalla realtà e mettere alle corde assunti filosofici che proprio qui possono essere costretti alla fallacia dell&rsquo;aporia irrealistica (ovvero la versione filosofica del &ldquo;con voi non gioco più, e mi porto via il pallone&rdquo;).</p>
+<p>Questo tipo di argomentazioni insomma si delinea su due filoni:</p>
+<p><strong>1- E' meta-fisica, quindi non deve rendere conto alla fisica,</strong></p>
+<p>cosa che abbiamo sconfessato <a class="link" href="http://www.phme.it/blog/2014/12/07/minimo-pratico-la-necessita-della-pratica/"  target="_blank" rel="noopener"
+    >nell&rsquo;articolo precedente del minimo pratico</a>. Analogamente si tenta anche un parallelismo con l&rsquo;aritmetica, portata ad esempio da Feser stesso:</p>
+<blockquote>
+<p>&ldquo;Its (metaphisics') claims do not stand or fall with the findings of physics, any more than the claims of arithmetic stand or fall with the findings of physics&rdquo;<br>
+<em>Le sue (della metafisica) deduzione non sono o si confrontano con le scoperte della fisica, più di quanto l&rsquo;aritmetica sia o si confronti con le scoperte della fisica</em></p>
+</blockquote>
+<p>senza tuttavia considerare che l&rsquo;aritmetica si rivede in continuazione funzionalmente ad altre descrizioni della realtà, se vuole rimanere una descrizione della realtà, e non si rifugia necessariamente in un aporistico solipsismo (cosa che però ai matematici piace tanto!): vedi l&rsquo;esempio della geometria piana, euclidea o ellittica già fatto. Più a pennello ancora calza la matematica degli spazi sesquilineari utilizzata in quantistica, ma meglio non divagare.<br>
+Infatti i matematici, a differenza di alcuni (scarsi) filosofi, sono ben consapevoli che dati alcuni assiomi, essi e le loro conseguenze possano non avere nulla a che fare con la nostra realtà a nessun livello, è lì che ci trovano spesso il divertimento. Il problema tutto filosofico è appunto, come già mostrato, quando a partire da una simile descrizione completamente apodittica si voglia descrivere qualcosa che dovrebbe avere a che fare con le nostre vite; in questo caso farne un fondamento per la teleologia.</p>
+<p><em><strong>Quindi, o <span style="text-decoration: underline">tutti</span> gli assunti e dedotti riscontrabili trovano riscontro nella realtà che si sta cercando di descrivere, oppure i propri assunti e dedotti non hanno alcuna validità all&rsquo;esterno di essi stessi, ovvero rispetto alla realtà.</strong></em></p>
+<p>Infatti, proprio nei confronti della meccanica quantistica e delle regole che la compongono, casualità inclusa, alcuni assunti basilari della matematica che quotidianamente maneggiamo si sono infranti. Per descrivere correttamente le proprietà quantistiche è necessario considerare il cosiddetto &ldquo;campo complesso&rdquo;, popolato da &ldquo;numeri immaginari&rdquo; (radici di numeri negativi) e perfino considerare un&rsquo;algebra non-commutativa (x*y non è uguale a y*x). Quindi, sempre seguendo l&rsquo;ottimo parallelo offerto, ma non compreso, da Feser: esattamente come l&rsquo;aritmetica, in cui si era originariamente postulato che x*y = y*x, è stata messa alla prova dalla realtà e a causa di questo è stato necessario considerarne una versione estesa, lo stesso potrebbe benissimo essere valido per la metafisica.</p>
+<p>In altri termini, se è vero che l&rsquo;algebrista non necessita di alcun riscontro con la realtà, egli a volte non lo pretende neppure, e quando scopre alcune proprietà bizzarre della sua algebra non urla al mondo di rifare la dichiarazione dei redditi perchè <a class="link" href="http://en.wikipedia.org/wiki/Pseudo-ring"  target="_blank" rel="noopener"
+    >lo pseudo anello manca di unità</a> (<a class="link" href="http://spikedmath.com/183.html"  target="_blank" rel="noopener"
+    >a meno che non si tratti di un&rsquo;emergenza).</a> Al contrario alcuni, come Feser stesso ed altri ancor meno brillanti che ancora hanno da capire sulla struttura delle teorie, e quindi sull&rsquo;algebra come esempio di apodittica perfetta, svincolandosi candidamente dalla realtà pretendono contemporaneamente di dirci ogni sorta di <a class="link" href="http://pellegrininellaverita.com/2014/11/28/cortile-dei-gentili-in-dialogo-con-sam-il-caso/#comments"  target="_blank" rel="noopener"
+    >amenità</a> su di essa.</p>
+<p><strong>2- La fisica non spiega tutto e quindi potrebbe esserci ancora spazio fra le pieghe per mostrare che la quantistica non è casuale</strong></p>
+<p>Il che a sua volta si divide in due interpretazioni. Affronto la prima che è nell&rsquo;interpretazione di Feser di tipo &ldquo;fisico&rdquo;:</p>
+<blockquote>
+<p>&ldquo;If something doesn’t show up in the description physics gives us, it doesn’t follow that it isn’t there in the physical world&rdquo;<br>
+<em>Se qualcosa che non si mostra nella descrizione che la fisica ci da, non significa che non esista nel mondo fisico.</em></p>
+</blockquote>
+<p>un&rsquo;asserzione di questo tipo è innanzitutto tutta da dimostrare, nel caso in cui per &ldquo;fisica&rdquo; si stia parlando di <em>questa</em> fisica, ed è drasticamente falsata nelle premesse nel caso in cui per fisica si stia parlando di <em>una possibile</em> fisica. La definizione filosofica di &ldquo;fisica&rdquo; non dovrebbe cercare esaurire, a prescindere, gli enti presenti &ldquo;nel mondo fisico&rdquo;? Se per avallare una propria teoria &ldquo;meta&rdquo;-fisica diventa necessario supporre che ci sia &ldquo;altra&rdquo;-fisica, ovvero un&rsquo;altra teoria che piace di più a te per spiegare il &ldquo;mondo fisico&rdquo;, è esattamente il ritorno dalla porta d&rsquo;ingresso della magia. Cattiva logica ma pessima, veramente pessima, &ldquo;filosofia&rdquo;.</p>
+<p>Se parliamo di <em>questa</em> fisica è anche evidente che Feser non sa di cosa stia parlando, in quanto con la postilla di sopra inizia **esattamente **parlare di &ldquo;variabili nascoste&rdquo;, negando fra l&rsquo;altro la sua premessa e giustificazione a questo suo mediocre blogpost (&quot;<em>In particular, I wasn’t advocating a “hidden variable theory” or the like&quot;).</em> Ovvero finalmente possiamo calare gli indugi ed interrompere questo reprise del precedente &ldquo;minimo pratico&rdquo; e parlare un po' di <em>questa</em> fisica, per entrare all&rsquo;interno del regime in cui la metafisica <strong>deve</strong> confrontarsi con la fisica e nel caso in cui non trovasse corrispondenza retrocedere e rivedere i propri assunti, esattamente come l&rsquo;aritmetica.</p>
+<p>Il &ldquo;<em>teorema di Bell</em>&quot;, è un nome che raccoglie una serie di risultati ottenuti a partire dal &lsquo;64 da Bell, Clauser, Horne e altri, che investigano la natura della correlazione di variabili quantistiche mostrando come <strong>la meccanica quantistica non è riconducibile a una teoria locale</strong>** statistica. In altri termini non è possibile ricondurre i risultati della quantistica a quelli di una probabilità classiche.**</p>
+<p>Storicamente il dibattito sia scientifico, che filosofico, è di lungo corso, appassionato e appassionante, coinvolgente i più brillanti interlocutori nei più brillanti dei modi. Un intero spettacolo comico potrebbe essere imbastito sulle caratterizzazioni di Einstein: &ldquo;Dio non gioca a dadi&rdquo; e Bohr: &ldquo;Non dire a dio cosa deve fare&rdquo;, Heisenberg:&ldquo;Dio siamo noi&rdquo;, Pauli: &ldquo;Non state capendoci nulla, io nel dubbio vado in Svizzera a ballare&rdquo; e tanti altri, ma concentriamoci sui contenuti anzichè sulla storia o le caratterizzazioni; (concedetemi solo una postilla sull&rsquo;aspetto religioso di Einstein, dato che viene troppo spesso citato a sproposito: &ldquo;<em>Per me, la parola Dio non è niente di più che un&rsquo;espressione e un prodotto dell&rsquo;umana debolezza, e la Bibbia è una collezione di onorevoli ma primitive leggende, che a dire il vero sono piuttosto infantili</em>&rdquo;, chi dovesse leggere nella parola &ldquo;dio&rdquo; espressa da un ateo ebreo quello cristiano cattolico ha seri problemi).</p>
+<p>Il contenuto di tale dibattito, nonostante l&rsquo;abbondante abuso della parola &ldquo;dio&rdquo;, ha a che fare con la più o meno mondana interpretazione della meccanica quantistica, problema tutt&rsquo;ora piuttosto aperto (anche se non secondo l&rsquo;opinione di <a class="link" href="http://www.enzopennetta.it/2014/02/in-memoria-di-emilio-del-giudice/"  target="_blank" rel="noopener"
+    >taluni dalle altre dubbie competenze</a>, è un fatto che l&rsquo;interpretazione di Copenhagen rimanga tutt&rsquo;ora quella <a class="link" href="http://arxiv.org/abs/1301.1069"  target="_blank" rel="noopener"
+    >largamente più accreditata</a>) e quindi sottoposto a scrutini e ipotesi più varie, specialmente ai suoi inizi. In particolare la grossa battaglia degli inizi è stata nel fornire una interpretazione <em>locale</em> o meno delle <a class="link" href="http://www.phme.it/blog/tag/fisica-quantistica/"  target="_blank" rel="noopener"
+    >bislacche proprietà della meccanica quantistica</a>.</p>
+<p>Fondamentalmente l&rsquo;assunto di base della meccanica quantistica è che ogni cosa è probabilità, quindi quando noi approntiamo uno &ldquo;<em>stato</em>&rdquo; quantistico e rispetto a una possibile &ldquo;<em>osservabile</em>&rdquo;, non otteniamo sempre uno &ldquo;<em>stato puro</em>&rdquo; ma una <em>combinazione</em>. Ad esempio è possibile lanciare una moneta quantistica perchè abbia il 50% di probabilità di fare testa e il 50% di probabilità di fare croce, esattamente come una moneta classica, lo <em>stato</em> della moneta sarà quindi banalmente 50% lo stato &ldquo;testa&rdquo; e il 50% lo stato &ldquo;croce&rdquo; (&ldquo;testa&rdquo; e &ldquo;croce&rdquo; sono a loro volta <em>stati</em>). Fin qua poco di diverso dalla <em>statistica classica</em>, la &ldquo;magia&rdquo; e novità sta nel fatto che queste probabilità a sua volta si combinano, in modo non facilmente riconducibile alla fisica classica, ad esempio come spiegato <a class="link" href="http://www.phme.it/blog/2010/11/17/la-natura-statistica-della-quantistica/"  target="_blank" rel="noopener"
+    >qua</a> (in breve: dato che le probabilità si combinano, nel mondo quantistico il risultato del lancio di due monete è diverso da due lanci di una moneta. Nel mondo classico, nonostante le macumbe nel lancio di dadi del Risiko, è invece uguale).</p>
+<p>Fin qua è tutta matematica, nella sua apodittica perfezione l&rsquo;unica cosa che può fare è stabilire degli assunti di base, verificando poi quale dei sistemi matematici sia vero costruendo monete quantistiche e sperimentando. Già negli anni &lsquo;20 si sono quindi resi conto che la matematica della <em>statistica classica</em> non era sufficiente a descrivere queste nuove combinazioni, e <a class="link" href="https://books.google.fi/books?id=JLyCo3RO4qUC&amp;printsec=frontcover&amp;dq=J.&#43;Von&#43;Neumann,&#43;Mathematical&#43;Foundations&#43;of&#43;Quantum&#43;Mechanics,&#43;Princeton&#43;University&#43;Press&#43;%281932%29&amp;hl=it&amp;sa=X&amp;ei=GiaUVIq9KeP9ygP3_oDYBA&amp;ved=0CCAQ6AEwAA#v=onepage&amp;q&amp;f=false"  target="_blank" rel="noopener"
+    >Von Neumann negli anni &lsquo;30</a> lo dimostrò rigurosamente (<a class="link" href="http://www.enzopennetta.it/2014/06/turista-non-per-caso-il-museo-civico-di-zologia-di-roma-e-levoluzione/#comment-27300"  target="_blank" rel="noopener"
+    >quindi, se si capisse ciò di cui si parla, bisognerebbe andarci più piano con le analogie</a>).</p>
+<p>Ma a questo punto <strong>è lecito chiedere se alla nuova fisica, a cui corrisponde nuova matematica, corrisponda quindi anche una nuova fenomenologia</strong>, ad esempio se il nuovo modo che hanno queste variabili di combinarsi sia unicamente una proprietà della materia a livello microscopico che segue <em>meccanicisticamente</em> regole e cause ancora più generali e a noi imperscutabili, o una proprietà <em>intrinseca</em> in se e per se conclusa_._ Questo si declina anche nel capire se tale probabilità sia _locale_ o meno (una differenza profonda, che una volta compresa risulta difficile definire &ldquo;<a class="link" href="http://pellegrininellaverita.com/2014/03/23/esiste-una-metafisica-quantistica-si-in-quanto-basata-sulla-logica-aristotelica/comment-page-1/#comment-3216"  target="_blank" rel="noopener"
+    >ontologicamente uguale</a>&quot;):</p>
+<ul>
+<li>ovvero se la particella se la &ldquo;porti dietro&rdquo; come un bagaglio ma sia fissata a monte, ma a noi invisibile, costretti a percepire solo la conclusione di un <em>processo</em> <em>meccanicistico</em> che a noi <em>appare</em> casuale ma non lo è, allo stesso modo in cui il lancio delle monete classiche <em>appare</em> casuale ma è <em>meccanicisticamente</em> determinato dalle loro proprietà di moto. Questo equivale a chiedersi se c&rsquo;è una &ldquo;causa&rdquo; (fisica) a noi preclusa che genera questa probabilità.</li>
+<li>oppure che ci sia una componente di casualità <em>intrinseca</em> alla natura, mai fissata se non nel <a class="link" href="http://www.phme.it/blog/2011/02/07/classico-e-quantistico/"  target="_blank" rel="noopener"
+    >limite classico</a>. Questo equivale a dire che questa casualità sia la causa ultima di se stessa (perchè, se avesse una causa fisica a noi ignota che &ldquo;fissa&rdquo; le variabili, si tornerebbe al meccanicismo del caso sopra).</li>
+</ul>
+<p>Einstein difendeva una interpretazione <em>locale</em> della meccanica quantistica, dal lavoro scientifico alla filosofia, passando per gli aneddoti, tutto è volto a dimostrare questo modo di considerare i risultati che non poteva piegarsi a una <em>casualità</em> intrinseca della materia. Per questo è, ed è ancora, spesso frainteso come paladino della religiosità solitamente dai più banalotti fra i Cristiani, in realtà lo scopo della difesa della <em>località</em> era un ben più banale (ma fondato) attaccamento alla località della relatività speciale (entità relativistiche non comunicano più veloci della luce, entità quantistiche sì, è il <a class="link" href="http://it.wikipedia.org/wiki/Paradosso_di_Einstein-Podolsky-Rosen"  target="_blank" rel="noopener"
+    >paradosso EPR</a>).<br>
+Bohr al contrario ha sempre avallato la spiegazione <em>intrinseca</em> della casualità quantistica, fondando poi quella che poi divenne la più accreditata interpretazione della meccanica quantistica che è l&rsquo;interpretazione di Copenhagen.</p>
+<p>La questione rimase in sospeso per molti decenni (anche se con diversi scossoni, come Von Neumann sopra), interpretazioni diverse e senza grossi modi di venire comprovate o smentite da inequivocabili dati sperimentali, basavano il successo o l&rsquo;insuccesso sull&rsquo;eleganza più che sull&rsquo;adesione alla verità. Ci sembrerebbe spazio per una metafisica svincolata, a questo punto, da ulteriore incombenze sul reale. Se non fosse che come ogni persona che voglia affrontare l&rsquo;argomento dovrebbe sapere, nel 1964 Bell iniziò a investigare l&rsquo;argomento riuscendo a fornire gli strumenti per guardare anche oltre questa coltre mistica che era la casualità quantistica e stabilire se fosse una casualità <em>intrinseca</em>, oppure se <em>localmente</em> tutto sia già definito da una <em>variabile nascosta</em> che non possiamo vedere o comprendere ma che non sia necessariamente casuale.</p>
+<p>L&rsquo;idea di base delineata da Bell è relativamente semplice, ma lunga da approfondire. Semplificando ulteriormente è facile capire che se abbiamo due monete truccate in modo che diano spesso risultati opposti e le misuriamo in due luoghi diversi, nel caso in cui possa forzare una delle due in una configurazione, a posteriori l&rsquo;altra assumerà quella opposta solo se la casualità è <em>intrinseca.</em> Se fosse al contrario <em>locale</em>, la sua faccia verrebbe decisa in fase di preparazione e se io forzassi in un diverso momento e luogo solo una delle due l&rsquo;altra non potrebbe cambiare, dato che la sua configurazione sarebbe comunque quella che si è portata dietro dall&rsquo;origine nella sua <em>variabile nascosta.</em><br>
+La questione ha particolare rilevanza per temi riguardanti informatica e comunicazione quantistica, negli anni seguenti quindi si è velocemente sviluppata. Culminando con la <a class="link" href="http://en.wikipedia.org/wiki/CHSH_inequality"  target="_blank" rel="noopener"
+    >disuguaglianza CHSH</a> di cui quella di Bell è un caso specifico, si è praticamente costruita una intera <em>teoria di variabili nascoste</em>, e comparata con l&rsquo;interpretazione di Copenhagen della meccanica quantistica, in specifiche misure di correlazione (i vari lanci di testa-croce per sistemi con tante monete armeggiate in diverso modo).</p>
+<p>Quindi ora abbiamo uno strumento per guardare oltre il risultato, oltre la matematica, (quasi) direttamente all&rsquo;interpretazione. Abbiamo una teoria &ldquo;con&rdquo; e una teoria &ldquo;senza&rdquo; <em>località</em>, &ldquo;tertium non datur&rdquo; come piacerebbe a Feser. Ovvero una volta costruita la teoria fisica X e la teoria fisica &ldquo;se X non fosse vera&rdquo;, non rimane altro da esplorare nella &ldquo;descrizione del mondo fisico&rdquo;, non rimane molto altro spazio dove infilare la <em>variabile nascosta</em>. E lo strumento che abbiamo ci dice esplicitamente, in diverso modo e da diverso tempo, che la casualità è _intrinseca _alla meccanica quantistica. <strong>Se qualcosa non solo &ldquo;<em>non si mostra in questa descrizione che la fisica ci da</em>&rdquo;, ma si mostrerebbe nella descrizione complementare che la fisica ha dato</strong> <strong>allora è l&rsquo;esperimento il giudice</strong> sull&rsquo;esistenza e sulla natura di quella cosa, non il preconcetto. E se dopo l&rsquo;esperimento si desidera continuare a credere che &ldquo;non significa non esista nel mondo fisico&rdquo;, allora è possibile per lo stesso principio credere all&rsquo;esistenza di Babbo Natale e della renna volante Rudolf, che hanno fisicamente più senso di una teoria quantistica <em>locale</em> a questo punto.</p>
+<p>A onor del vero esistono (ma <a class="link" href="http://people.isy.liu.se/en/jalar/kurser/QF/assignments/Leggett2003.pdf"  target="_blank" rel="noopener"
+    >non è così sicuro siano così plausibili:</a> &ldquo;I am not arguing that the absolute plausibility of any nonlocal theory is particularly high&rdquo;) alternative <em>fisiche</em> ancora possibili, interpretazioni a <em>variabili nascoste non locali,</em> come quella di deBroglie-Bohm, o interpretazione a molti-mondi, come quella di Everett. Ma da un lato di nuovo è <strong>necessario</strong> rimettere il giudizio agli strumenti di investigazione scientifici e avviare un discorso di tipo <em>fisico</em> e sulla fisica pesare tali teorie e la fisica di queste interpretazioni alternative non è decisamente all&rsquo;altezza. Dall&rsquo;altro <em>meta-fisicamente</em> entrambi questi approcci non sono privi privi di problemi, specialmente riguardo al problema teleologico (un&rsquo;interpretazione molti-mondi spazzia via completamente ogni forma di teleologia per definizione) che in fondo è l&rsquo;origine della presunta inaccettabilità dell&rsquo;interpretazione di Copenhagen.</p>
+<p><strong>Un&rsquo;altra obiezione è di tipo meta-fisico</strong>, come illustrato da Mauro-Minstrel <a class="link" href="http://pellegrininellaverita.com/2014/11/28/cortile-dei-gentili-in-dialogo-con-sam-il-caso/"  target="_blank" rel="noopener"
+    >anche se imho in modo confuso</a>:</p>
+<blockquote>
+<p>è provabile mediante metodo scientifico, cioè in modo controllabile o governabile, l’esistenza del “caso” quale causa incontrollabile o ingovernabile quale motore degli effetti controllabili o governabili?<br>
+Necessariamente no</p>
+</blockquote>
+<p>Confuso perchè esistono diversi tipologie di casualità, di cui non si fa menzione e distinzione, cosa che d&rsquo;altronde viene difficile, dato che la lingua non viene in aiuto. Abbiamo sviscerato le differenze fra casualità <em>locale</em> e <em>intrinseca,</em> ma questo ha unicamente a che vedere con la natura <em>probabilistica e causale</em> del &ldquo;caso&rdquo;. Quella di cui si obietta sopra, al contrario, ha a che fare con la natura <em>determinista</em> della parola &ldquo;caso&rdquo;.</p>
+<p>Ovvero una moneta a due facce avrà sempre due facce, il risultato di ogni lancio è <em>casuale,</em> nel caso di moneta quantistica, in quanto manca di precisa <em>causa</em> fisica che motivi come mai il risultato finale sia testa anzichè croce. Solo apparantemente sarà _casuale, _nel caso di moneta classica, ma la <em>causa</em> saranno le caratteristiche del moto impresso della moneta. In entrambi i casi l&rsquo;evento è _probabilistico <em>ed</em> _è perfettamente <em>determinato</em> in un risultato fra testa o croce. Al contrario, quello che ti passerà per la testa fra 10 minuti è <em>indeterminato</em> e non __probabilisticamente <em><em>definito</em>,</em> in quanto potrà essere praticamente qualunque cosa, ma non <em>senza causa</em>. Il &ldquo;caso assoluto&rdquo; di cui si fa menzione in alcuni scritti, ovvero una entità <em>indeterminata, non probabilistica</em> e <em>senza causa</em>, non è assolutamente detto debba esistere, e discutere di un ente dotato di tre proprietà qualsiasi diverse fra loro è più divertente nei casi dell&rsquo;<em>invisibile unicorno rosa</em> o il <em>mostro di spaghetti volante</em>.</p>
+<p>Insomma è chiaramente frutto di un sillogismo baroco basato sull&rsquo;ambivalenza del termine &ldquo;caso&rdquo; e su un non corretto non chiarimento delle premesse. Che esista una struttura della realtà in cui la natura sia _intrinsecamente _<em>probabilisticamente casuale</em> dovremmo oramai averlo capito. Questo non ha assolutamente nulla a che vedere con una <em>intrinsica indeterminazione casuale,</em> che è ciò di cui Mauro parla per il resto del suo articolo parafrasando a tratti il Feser di sopra.</p>
+<p>Da una chiara distinzione e separazione di queste tre caratteristiche deve partire ogni possibile filosofia sul tema del caso e cause fisiche. A quel punto un approccio Aristotelico alla meccanica quantistica, sebbene imho ben lungi dal considerarsi completa, utile e profittevole, è fattibile e anche affascinante. Consiglio spassionatamente la lettura della seconda parte del secondo articolo linkato di Feser, sull&rsquo;interpretazione decadimento alfa, nonostante l&rsquo;esempio scelto mi innervosisca per deformazione professionale, Il Pb-210 è principalmente un beta-emettitore. L&rsquo;interpretazione è genuina, del tutto compatibile con l&rsquo;interpretazione di Copenhagen e l&rsquo;intrinseca <em>casualità</em> <em>deterministica probabilistica</em> delle variabili quantistiche, pulita dalla pula di un pensiero pregiudizievole la teoria può essere riportata sui binari giusti che gli appartengono di completezza e consistenza col resto del <em>corpus</em> culturale umano.</p>
+<h2 id="comments">Comments</h2>
+<h3 id="comment-by-minstrel-on-2014-12-19-231620-0000">Comment by minstrel on 2014-12-19 23:16:20 +0000</h3>
+<p>Non dico di aver capito tutto. Forse nemmeno abbastanza. Sto approfondendo nel frattempo. Trovo il post confuso quando parla di Dio e si &ldquo;trastulla&rdquo; nel concordismo su cui al riguardo scriverò quando posso. Circa il mio post ho compreso che è meglio parlare di caos assoluto piuttosto che caso. Cambia termine e la sostanza magicamente non varia.<br>
+Moh dormo, ti spero bene e vediamo di vederci per augurarci Buona fottutissima vita per questo nuovo nno di grazia!</p>
+<h3 id="comment-by-andrea-on-2014-12-23-001740-0000">Comment by Andrea on 2014-12-23 00:17:40 +0000</h3>
+<p>Dov&rsquo;è che si parlerebbe di Dio?</p>
+<p>Imho è meglio non parlare di cose che non portano nuove informazioni.<br>
+Quello che hai descritto nel tuo post, indipendentemente da come lo chiami, è solo un qualcosa a cui hai appioppiato una serie di proprietà non direttamente correlate fra loro, e quindi fondamentalmente non c&rsquo;è molta sostanza a proposito di cosa parlare quando si parla di quella cosa, se non ciò che il termine evoca poeticamente parlando.</p>
+<p>Del &ldquo;concordismo&rdquo; (non fra scritture e scienza, &ldquo;Dio&rdquo; ce ne scampi, ma fra filosofia e scienza) ne ho parlato prima sul primo minimo pratico, meglio deviare la discussione lì. Non è un &ldquo;trastullo&rdquo;, ma una chiara e inescapibile esigenza filosofica. Un&rsquo;esigenza che a volte si riconosce, a volte colpevolmente ci si scorda a quanto pare.</p>
+<h3 id="comment-by-minstrel-on-2014-12-23-101650-0000">Comment by minstrel on 2014-12-23 10:16:50 +0000</h3>
+<p>Per concordismo intendo la pratica di porre su uno stesso livello &ldquo;scienza&rdquo; e &ldquo;TEOLOGIA razionale&rdquo;, che è l&rsquo;approdo naturale di una metafisica realista tomisticamente intesa.<br>
+Sotto questo profilo si confondo il inguaggio scientifico con quello teologico. A tale riguardo sono d&rsquo;accordo con il Lambert che tale prassi è un grave errore teologico ed epistemologico perché non tiene conto della differenza tra i livelli del discorso e tra i loro oggetti.<br>
+&ldquo;Da un punto di vista ontologico porta al panteismo (l’oggetto della teologia s’identifica con l’oggetto di una fisica generalizzata), ma porta anche alla negazione della teologia, poiché il linguaggio scientifico sarebbe sufficiente per descrivere tutta la realtà.&rdquo;<br>
+Le figure del dialogo scienza-teologia: ostacoli e prospettive by DOMINIQUE LAMBERT<br>
+Il Panteismo ha le sue gatte da pelare, il materialismo riduzionista pure. Le conclusioni di un concordismo fra questi due linguaggi sono da scartare, imho il concordismo ha delle premesse errate.</p>
+<p>Ripeto che sinceramente non ho ancora compreso dove sia l&rsquo;errore di una metafisica classicamente intesa ben sapendo che tale metafisica non è di stampo concordista e nemmeno &ldquo;discordista&rdquo;, ma al massimo di stampo articolato. Poi qui si può discutere se parliamo di articolazione &ldquo;fondazionale&rdquo; (come Strumia) o Critico-strutturalista (alla Lambert appunto), ma devo ancora comprendere bene la critica sinceramente.</p>
+<h3 id="comment-by-minstrel-on-2014-12-23-102242-0000">Comment by minstrel on 2014-12-23 10:22:42 +0000</h3>
+<p>PS: Quello che io ho cercato di definire nel mio post, al di là di come vogliamo chiamarlo, è - credo - il necessario apriori per pensare che il reale sia conoscibile in quanto tale. Se il reale è nella sua INTEGRALITA&rsquo; <strong>assolutamente</strong> caotico allora qualsiasi cosa è assolutamente caotica e quelle che sembrano essere leggi interne all&rsquo;essere stesso del reale sono pure illusioni. Ovviamente mi si chiederà come posso porre un apriori così granitico pensando che il reale sia nella sua interezza assolutamente caotico. Rispondo che chiunque discuta di scienza come conoscenza basandosi sul tentativo di scoperta di &ldquo;leggi universali&rdquo;, si pone in un apriori uguale e contrario, pensa cioè ad un reale integralmente non caotico.</p>
+<h3 id="comment-by-minstrel-on-2014-12-23-103815-0000">Comment by minstrel on 2014-12-23 10:38:15 +0000</h3>
+<p>Meglio scrivere: qualsiasi fenomeno o moto aristotelicamente inteso, interno a quel caos assoluto è assolutamente caotico esso stesso, è ontologicamente caos.</p>
+<h3 id="comment-by-andrea-on-2014-12-23-133004-0000">Comment by Andrea on 2014-12-23 13:30:04 +0000</h3>
+<p>I limiti di una &ldquo;scala dei saperi&rdquo; sono evidenziati nell&rsquo;articolo precedente.<br>
+Riassumendo: non porta da nessuna parte in quarto a un certo punto bisogna ammettere che il cerchio va chiuso, e quindi la scala crolla su se stessa (o diventa Echeriana :P). La realtà è controintuitiva, lo abbiamo scoperto più e più volte nel corso della storia, e più e più volte abbiamo dovuto reintrepretare la fisica, l&rsquo;aritmetica e la filosofia in funzione di questa controintuitiva realtà, non viceversa.<br>
+Non è che la Fisica aristitotelica fosse merda o stupida, anzi, è semplicemente intuitiva. E&rsquo; intuitivo che un oggetto ha bisogno di essere attivamente mosso per essere in movimento. E' sbagliato. La parte di metafisica relativa al &ldquo;primo mobile&rdquo;, anch&rsquo;essa quindi è, <strong>se presa tale e quale</strong> sbagliata. Ed è naturale che lo sia perchè fondata sul fatto che il motore immobile è necessario per &ldquo;muovere il primo mobile&rdquo; che serve a muovere fisicamente le cose. E tutto perchè, naturalmente ma ingenuamente, le assunzioni che ragionevolmente si erano fatte sulla realtà con calma si sono scoperte errate. Allora si può reinterpretare il &ldquo;motore immobile&rdquo;, attuando praticamente un feedback fra la realtà e la metafisica (e fra la metafisica e la realtà col metodo scientifico e le teorie di teorie), cosa che si fa ed è necessaria. Se devi rispondere ulteriormente su questo, perchè non andare dall&rsquo;altra parte?! 🙂</p>
+<p><strong>A proposito del &ldquo;caos&rdquo;</strong>: l&rsquo;errore è che l&rsquo;a-priori scientifico non è assolutamente &ldquo;uguale e contrario&rdquo; di quello che tu descrivi come &ldquo;assolutamente caotico&rdquo;. L&rsquo;apriori scientifico, al contario, come ho esplicitato qui, attualmente è unicamente quello di determinismo. Che è diverso da quello di causalità fisica, che non è necessaria ad esempio: ci sono processi che possono essere causa di se stessi (la mia tesi, sei pure nella dedica, non vorrai dirmi che non l&rsquo;hai letta, capita e digerita?! :D) e ovviamente la determinazione certa (contrario di probabilistica) non è più necessaria.</p>
+<p>Di nuovo, questi tuoi pregiudizi non sono casuali imho. Tradiscono una concezione filosofica puramente medioevale che è ancorata a una fisica puramente medioevale. Nella fisica aristotelica la probabilità non esiste, la geometria è il calcolo ed è il calcolo esatto. Poi è venuto a cadere il requisito di determinazione certa. Ora di casualità. Non è escludibile che in futuro possa cadere perfino il requisito di determinazione (classi di teorie, gruppi di interazioni). La filosofia deve adeguarsi di conseguenza.</p>
+<h3 id="comment-by-minstrel-on-2014-12-23-142206-0000">Comment by minstrel on 2014-12-23 14:22:06 +0000</h3>
+<p>Appunto Andrea! E' proprio quel determinismo che permette aprioristicamente di pensare la scienza quale conoscenza, ma attento letto sotto una modalità integrale! Ed è appunto il fatto che è diverso da qualsiasi causalità e/o casualità fisica che muovo il mio appunto.<br>
+Che ci siano processi che si autocausano significa che essi sono in un quadro generale che li permette infatti e SE QUEL QUADRO è CAOS allora il disegno che ne esce non può che essere &ldquo;nulla&rdquo; come conoscenza.<br>
+Il determinismo quindi diviene concezione del reale sganciato da una visione prettamente positivistica che ovviamente oramai ha fatto il suo corso, ma diviene spiegazione generale e ontologica del reale in quanto tale e non può non essere tale SE si vuole essere &ldquo;realisti&rdquo; cioè credere all&rsquo;esistenza di un reale che precede il soggetto.<br>
+Ed è ovviamente un apriori.<br>
+Forse è per questo che non ci capiamo: la quadratura del cerchio che tu imponi si chiama Assoluto. La realtà &ldquo;controintuitiva&rdquo; non significa che sia &ldquo;modalmente antiumana&rdquo; tant&rsquo;è che la stiamo spiegando (a tocchi, a brani, a pezzi, ma quei pezzi sono spiegazioni di quei pezzi, non illusioni per me, chiaro questo no?!). La realtà è controintuiva per chi pensa l&rsquo;intuizione in modo a-razionale (tipo: io sono soggetto al tempo, tutto allora è soggetto al tempo; questo è riduzionismo! Il filosofo dice: sono soggetto a qualcosa che io sono solito chiamare tempo, ma cosa è il tempo? Ed è considerabile caratteristica universale che &ldquo;sente&rdquo; anche chi non &ldquo;sente&rdquo; della sua esistenza?). L&rsquo;intuizione può essere invece la conoscenza del reale in quanto il reale è atto ad essere conosciuto dall&rsquo;uomo! Cioè il reale &ldquo;si comunica&rdquo; con modalità che l&rsquo;uomo può comprendere anche se non completamente. Cioè la realtà è modalmente anche umana e questo perché metafisicamente (ontologicamente) appunto determinata.<br>
+non mi accontento ovviamente di questa mia conclusione rapida, per ora facciamolo.</p>
+<p>PS: non riesci a mettere altre domande per i commenti? Tipo: &ldquo;sempre caro mi fu quest&rsquo;ermo&hellip;&rdquo; &ldquo;Tancredi che Clorinda un omo&hellip;&rdquo; &ldquo;intervallo di quarta giusta su primo grado di do &hellip;&rdquo;. Quelle matematiche a volte mi mettono in imbarazzo! TIpo adesso&hellip; buahahahha 😛</p>
+<h3 id="comment-by-andrea-on-2014-12-23-171030-0000">Comment by Andrea on 2014-12-23 17:10:30 +0000</h3>
+<p>Sì ma appunto quando dici &ldquo;se questo quadro è il caos&rdquo; sei tu che &ldquo;riduci&rdquo; il tuo a tutto, non il riduzionismo! 🙂</p>
+<p>Il &ldquo;Caos&rdquo;, &ldquo;la causa&rdquo;, &ldquo;il caso&rdquo;&hellip;etc&hellip; sono concetti tuoi, con proprietà che definisci tu, non è detto che debbano esistere in realtà, caos assoluto o relativo che sia. Poi ad esempio il &ldquo;caso&rdquo; esiste con le modalità che ho definito sopra e va bene, ma appunto non sono precisamente le stesse che puoi definire per contrapposizioni &ldquo;assolute&rdquo; quindi se insisti a far corrispondere qualcosa che tu hai apoditticamente pensato a qualcosa che esiste nella realtà, de facto vai a dire più di quanto potresti, a questo punto è difficile che muovi un solo passo verso questa comprensione, che invece deve conseguire a seguito di una indagine più strutturata.</p>
+<p>Che il reale possa essere compreso sono d&rsquo;accordo. Ma che sia necessaria una struttura dei saperi e non una gerarchia è per me evidente.</p>
+<p>E idem non è il &ldquo;determinismo&rdquo;, nel campo dell&rsquo;ipotetico e di quello che potrebbe essere un argomento di ricerca filosofica imho, che permette aprioristicamente la conoscenza. Come ho accennato è possibile pensare una scienza che non segue leggi, ma set di leggi definite in modo elastico e più generale (ciò che è il principio antropico secondo Wigner).</p>
+<p>PS: L O L<br>
+non il minimo controllo su questo blog, non mi da retta, già dico di non moderare dopo il primo commento approvato e non lo fa&hellip; 😛</p>
+<h3 id="comment-by-minstrel-on-2014-12-24-084355-0000">Comment by minstrel on 2014-12-24 08:43:55 +0000</h3>
+<p>La faccenda si sta facendo interessante. resta il fatto che secondo me non ci capiamo perché stiamo usando dei termini diversi. Io per realtà intendo una cosa, tu probabilmente un&rsquo;altra. Il fatto stesso che ritieni, scherzosamente, che io faccia il riduzionista quando parlo di &ldquo;integralità&rdquo; (che è l&rsquo;opposto del riduzionismo) comporta misunderstanding. Difatti l&rsquo;integralità della realtà per il realista è più della somma delle singole parti. Quel quid in più è proprio la realtà presa nel suo complesso esattamente come una casa nel suo complesso non è solo mattoni e calcina, ma progetto, forma, colore and so on. Il tutto è di più, punto. Da qui devi partire per comprendere la visione integrale propria della metafisica come la si intende da noi. E quindi comprendere perché dobbiamo pensare tale intero assolutamente NON caotico, cioè non può essere pensato INforme, senza forma.<br>
+Altro misunderstanding: materia. Se n&rsquo;è parlato qui in brevis<br>
+<a href="http://pellegrininellaverita.com/2014/12/16/edward-feser-progressiva-dematerializzazione/" rel="nofollow"><a href="http://pellegrininellaverita.com/2014/12/16/edward-feser-progressiva-dematerializzazione/">http://pellegrininellaverita.com/2014/12/16/edward-feser-progressiva-dematerializzazione/</a></a><br>
+Il concetto di materia, oltre a quello di realtà, va allargato ed affrontato in una visione INTEGRALE che risponde per atto e potenza. Il problema è che tu mi potrai sempre dire che atto e potenza sono superati, ma in realtà non mi pare affatto e proprio il tuo campo diviene magicamente prono alle necessità della comprensione, del NON CAOS, della FORMA NECESSARIA al REALE COMPRENSIBILE per essere TALE (!), grazie a questa straordinaria INTUIZIONE. 😛<br>
+Ecco, così ho messo tutto in una frase. Si capisce MENO meglio! 😀</p>
+<p>Mi puoi dire che non puoi pensare che il mio concetto di &ldquo;tutto&rdquo; sia reale, ma io non dico che il mio concetto di tutto è reale, solo che è logico. Se il tutto è senza forma, qualsiasi possibile forma di una parte di questo tutto è pura illusione. E' logico. Punto! La realtà &ldquo;non è logica&rdquo; mi dici tu, e allora io ti dico che in prospettiva integrale tu vedi la realtà come non formata, puro caos irraggiunbile dall&rsquo;uomo. Bene, accetta il fatto che allora tutto il &ldquo;set possibile di leggi&rdquo; è illusione. Boh, a me pare che tertium non datur.<br>
+O meglio il tertium è il silenzio. Dico niente, nulla so.</p>
+<h3 id="comment-by-andrea-on-2014-12-24-114739-0000">Comment by Andrea on 2014-12-24 11:47:39 +0000</h3>
+<p>Scherzosamente ti reputo riduzionista anche quando fai esempi squisitamente riduzionisti e citi motti riduzionisti:</p>
+<ul>
+<li>
+<p>&ldquo;More is different&rdquo; è il titolo dell&rsquo;articolo di Phil Anderson che ha messo uno degli ultimi chiodi al sarcofago, almeno per quanto riguarda l&rsquo;aspetto puramente scientifico della questione (scientifico neh, mica filosofico), su come &ldquo;the reductionist hypothesist is accepted without question&rdquo;. <a href="http://robotics.cs.tamu.edu/dshell/cs689/papers/anderson72more_is_different.pdf" rel="nofollow"><a href="http://robotics.cs.tamu.edu/dshell/cs689/papers/anderson72more_is_different.pdf">http://robotics.cs.tamu.edu/dshell/cs689/papers/anderson72more_is_different.pdf</a></a></p>
+</li>
+<li>
+<p>E l&rsquo;esempio di casa e mattoni si applica piuttosto bene al caso riduzionista: la casa sappiamo precisamente da quali componenti è composta ed in che relazione. La sua proprietà di rifugio, le sue caratteristiche sociali e architettoniche come unità all&rsquo;interno della città sono tutte &ldquo;proprietà emergenti&rdquo;, che non potremmo ottenere altrimenti, ma sicuramente non sono una &ldquo;proprietà elementare&rdquo; e la casa non è una &ldquo;proprietà elementare&rdquo; e non va confusa con esse.<br>
+Se prendiamo le componenti di base non avremo una casa con le sue proprietà, e questo è perfettamente in rigore con il riduzionismo, allo stesso modo in cui se facciamo a pezzi una cellula non abbiamo più una cellula con le sue proprietà, se facciamo a pezzi un nucleo non abbiamo più un nucleo con le sue proprietà.<br>
+Non c&rsquo;è alcuna necessità di postulare un' &ldquo;anima&rdquo; della casa, e la cosa suona francamente primitiva e posticcia, e dividere la materia in atto e potenza è una &ldquo;scelta di tavolozza&rdquo; come altre imho.</p>
+</li>
+</ul>
+<p>Che &ldquo;la realtà è più della somma&rdquo; è una cosa che il riduzionismo fa proprio, quindi non so di cosa stai parlando quando parli di riduzionismo. Fra l&rsquo;altro quantifica è una cosa che pure in alcuni casi (di nuovo, la mia tesi: la quantificazione della superfluidità nucleare è una proprietà emergente della struttura nucleare, ma se fai a pezzi il nucleo o lo metti in condizioni estreme arrivi a un punto in cui quella proprietà si frantuma), a testimonianza di quanto rigoroso possa diventare questo approccio. Altre logicamente volte, no, ma filosoficamente perfettamente compatibile.</p>
+<p>Appunto il terzo articolo del minimo pratico volevo farlo su questa confusione fra proprietà elementari e proprietà emergenti che il vostro amico Feser non sembra aver ben capito a giudicare dal suo libro e tu con lui.</p>
+<p>PS: Ho cambiato tema nella speranza che facesse ciò che dico riguardo alla moderazione, ma ancora nulla &gt;.&lt; magari fammi un commento breve, senza inserire link, al prossimo reply please.</p>
+<h3 id="comment-by-aaron-on-2015-01-06-000227-0000">Comment by Aaron on 2015-01-06 00:02:27 +0000</h3>
+<p>Quanto alla prima “risposta” della filosofia all’accusa di ignorare la fisica: essa è PARZIALMENTE giustificata.<br>
+E’ parzialmente giustificata dal fatto che, pur essendo la realtà la MEDESIMA cosa che sia la fisica sia la filosofia osservano e vorrebbero spiegare, esse usano due prospettive differenti. Come la biologia non deve per forza fermarsi ad applicare ad un certo ambito le leggi della fisica senza poterne introdurre di sue proprie (ma senza violare le prime, comunque), tanto più una branca della filosofia come la metafisica (che tu chiami in campo e a cui, dunque, mi riferisco) o l’ontologia non deve affatto ritenersi limitata alle leggi della fisica quali noi le conosciamo.<br>
+Primo perché potrebbero esserci aspetti del reale che non sono fisici, non nel senso attuale del termine. E’ una semplice possibilità, certo. Ma da principio va tenuta in conto. La scelta di considerare ciò che è quantificabile oggettivamente come riferimento di un’indagine è una precisa scelta di metodo. E’ la scelta di metodo delle scienze fisiche. Non per questo deve essere anche quella della filosofia. Non al modo di un postulato, almeno. Se la filosofia dimostrasse – con il SUO metodo – che non vi è altro, allora il fisicalismo sarebbe una scelta obbligata.<br>
+Fino ad allora, però, la metafisica è legittimata ad operare una universalizzazione al livello più elevato: analizzare le leggi di TUTTO ciò che esiste. La scienza di ciò che è in quanto E’. Non in quanto è quantificabile, o ha una estensione, o è oggettivabile, eccetera. Di ciò che è comune ad ogni tipo di ente – o alle cause prime di OGNI ente (ciò che esiste).<br>
+Non si vede perché, dunque, una metafisica non possa postulare una “causa non-fenomenica di un fenomeno”, andando dunque OLTRE la disuguaglianza di Bell.<br>
+Il metafisico potrebbe ben dire “certo, la casualità vale per il mondo fisico e dei fenomeni, ma c’è una causa non-fisica e dunque non riscontrabile PER PRINCIPIO all’osservazione delle scienze dure”. Potrebbe dirlo legittimamente; e nessun risultato ottenuto con il metodo della FISICA potrebbe smentirlo, proprio perché si pone su un piano più alto e che, per così dire, contiene il mondo fisico senza volerlo direttamente contraddire; ma per contro il mondo fisico non può essere preso come ciò che contraddice grazie alle sue leggi una parte del reale che a tali leggi, in quella visione, non necessariamente risponde, né può essere osservato secondo il medesimo metodo.<br>
+Una tale metafisica esiste, e la mia citazione è una citazione testuale.<br>
+E’ la metafisica di Kant, che postula una sfera più profonda del reale ed al di là di qualsiasi categorizzazione (la sfera noumenica) ma che pure è capace di causare il mondo dei fenomeni. Tale metafisica non può essere smentita da nessuna teoria fisica, ma è pensata per poter includerle tutte. (Tralasciando la questione sullo “spazio e tempo assoluti”, che in effetti E’ stata smentita e proprio dalla geometria e dalla fisica). E’ una questione di metodo e di sfera d’azione, non di contenuti.</p>
+<p>Allo stesso modo, ma più a monte, c’è la questione del significato dei termini in un contesto.<br>
+Usi il termine “casuale”. Ma cosa significa casuale? Significa “mancante di una causa determinata”, o “non sottoposto a regole precise”.<br>
+Il secondo significato in ultima istanza è riducibile al primo. Una regola si dà quando si individua il rapporto tra la causa e l’effetto.<br>
+Quindi è un concetto meramente negativo, comunque si voglia porlo.<br>
+Si può osservare l’ assenza di qualcosa? Nessuna affermazione scientifica può essere di questo tipo: “non esiste alcun corvo bianco” – proprio perché non vi è alcun modo di concludere dall’osservazione che non sia possibile reperirne altrove.<br>
+Ciò sarebbe possibile in fisica solo se una teoria si presentasse davvero come una teoria del tutto – se al di fuori non vi è alcun fenomeno fisico e ogni altro fenomeno fisico è stato in essa risolto e in tale descrizione una X è presente, allora si può escludere l’esistenza di tale X. Ma se ne potrebbe escludere l’esistenza fisica, non un’esistenza per così dire “noumenica”. E siamo al discorso di prima.</p>
+<p>Ma prescindendo anche da ciò: una assenza di causa è anche solo CONCEPIBILE? E qui, ripeto, stiamo parlando di concetti: se la mente umana per principio non PUO’ lavorare in un certo modo, e tale analisi di principio è corretta, non vi è alcun risultato sperimentale che possa contraddire a ciò: se vi fosse, noi non lo scopriremmo, non potremmo concettualizzarlo – proprio perché la nostra mente non può lavorare in un certo modo.</p>
+<p>Una risposta alla domanda: “perchè x si ha cambiato stato?” che suonasse così: “Perché ha cambiato stato.” o meglio “senza alcun perché”, la considereremmo una vera risposta?<br>
+Non è forse parte del modo di funzionare base della mente umana quello di ricercare una causa ad ogni fatto e movimento? L’uomo può farne a meno?<br>
+Ma se la risposta è positiva, l’uomo allora avrebbe potuto farne a meno a qualsiasi punto del percorso, perché strettamente parlando una dimostrazione in positivo della connessione causale non avviene mai – ed anche qui mi rifaccio a Kant e prima di lui a Hume. Se possiamo immaginare l’assenza di causa, allora non abbiamo mai un motivo rigorosamente valido per postularne una, a nessun livello del percorso di ricerca.</p>
+<p>La ricerca delle cause può e deve arrestarsi, tuttavia, pena un regresso all’infinito.<br>
+Può farlo però solo se incontra un ente o un fenomeno o una causa tale da 1)poter spiegare tutto il resto e 2) poter spiegare sé stessa e la sua autosufficienza.<br>
+E’ ciò che la filosofia chiama Dio o l’Assoluto – un Dio che è più un postulato della ragione che altro, a questo livello. Dunque non voglio entrare nell’ambito della teologia, perché non sto attribuendo a tale X alcun altra caratteristica che quella di “causa ultima autosufficiente”, e fin qui siamo in un ambito tutto concettuale e impersonale. Né intendo dimostrare tale esistenza. Se si parla di cause e di assenza di cause (i.e. “casualità”), però, è bene determinare se e quando una tale assenza si possa affermare secondo i criteri e le possibilità della ragione umana.</p>
+<p>E una simile analisi dei concetti precede la fisica, più che esservi sottoposta. Oltre i calcoli, se un fisico vuole fornirne un’interpretazione deve usare dei concetti. E prima di usarli, deve sincerarsi di conoscerne appieno il significato e le condizioni d’uso. Così come ogni altro scienziato. Se tu mi dicessi di aver visto un cerchio quadrato, io non potrei crederti. Dovrei credere che intendiamo due cose diverse pur usando le medesime parole. O che non hai ben compreso di cosa stessimo parlando. O, ancora, che la nostra mente usa e ha sempre usato concetti falsati e in contraddizione con la realtà, e dunque che ogni cosa di quanto abbiamo detto e fatto potrebbe non aver mai avuto senso.</p>
+<h3 id="comment-by-andrea-on-2015-01-06-084747-0000">Comment by Andrea on 2015-01-06 08:47:47 +0000</h3>
+<p>Allora, riguardo alla prima &ldquo;obiezione&rdquo;, non ho nulla in contrario. Specifico appunto causa &ldquo;fisica&rdquo;, più e più volte. Andrebbe anche spiegato cosa si intende, faccio un accenno al meccanicismo ma ovviamente un blogpost non è un trattato e io non sono un filosofo. Questo è un minimo  <em>pratico</em> non un massimo  <em>filosofico</em> .<br>
+Quindi è una base di partenza che la filosofia deve comunque considerare, ad esempio è importante da considerare in un approccio al darwinismo come vedremo la mancanza di una causa fisica. Ad esempio non si può (e non si può proprio, e (quasi) non c&rsquo;è spazio nella fisica) immaginarsi un ente che si infila nel reale giocando attivamente a modificare le probabilità quantistiche, questo verrebbe individuato dalla disuguaglianza di Bell a meno di un dio burlone vabbeh, che depressione. Ciò non implica che il determinismo di cui parlo non possa essere filosoficamente interpretato come una causa (in un certo senso lo è), volendo proglomeno una causa finale (imho in modo mooooolto stiracchiato, ma vabbeh, a ognuno il suo).<br>
+Ma questo tipo di causa, deve essere filosoficamente qualitativamente diversa da una causa di tipo fisico, meccanicistico, o efficace che dir si voglia. Insomma, di nuovo deve andarsi a creare un nuovo ente, operazione che a me francamente sta antipatica ma c&rsquo;è a chi piace adottarla con leggerezza. A quel punto dovrebbe investigare i rapporti di questa causa qualitativamente diversa con la causa fisica di cui noi abbiamo esperienza&hellip;etc&hellip; insomma fare il filosofo. Ma deve farlo, sempre tenendo in considerazione, che la causa fisica di cui io ho parlato ha quelle proprietà di cui ho parlato.</p>
+<p>Riguardo al secondo paragrafo &ldquo;Ma cosa significa casuale?&rdquo;, ne ho parlato, e dò tre significati, non puoi arrivare con altre definizioni su ;). Ti sbagli per i motivi espressi sopra: la causalità non è un concetto in negativo, e la probabilità non implica indeterminazione.<br>
+E' più che concebile avere un ente che sia causa di se stesso, ed è questo che fa la meccanica quantistica quando definisce i suoi enti elementari.<br>
+E la domanda sullo stato, è perniciosa, perchè lo stato va definito. Allo stesso modo in cui Aristotele si sbagliava definendo lo &ldquo;stato&rdquo; come &ldquo;immobile&rdquo;, non puoi usare l&rsquo;idea classica di &ldquo;stato&rdquo; applicandola alla quantistica. Le cause ci sono quando hanno senso cercarle, sono definite all&rsquo;interno di una nuova concezione fisico-matematica completa che non è facilmente esprimibile a parole. Quando si va allo stato &ldquo;elementare&rdquo; invece non c&rsquo;è una causa, così è e la domanda &ldquo;cosa cambia lo stato&rdquo; è senza senso, perchè appunto l&rsquo;ente quantistico è definito in modo da spiegare matematicamente e fisicamente se stesso, anche se non è unico, universale e cazzi e mazzi e Dio e Assoluto come la filosofia vorrebbe.<br>
+O forse sì, non lo so, non sono un filosofo.<br>
+Quello che so è che è una cosa che la filosofia non può ignorare o schermarsi con frasi maldestre come quelle di sopra.</p>
+<h3 id="comment-by-aaron-on-2015-01-06-104920-0000">Comment by Aaron on 2015-01-06 10:49:20 +0000</h3>
+<p>Probabilità allora non implica nemmeno casualità. (Non causalità, ma CASUalità XD ) e quindi ci troviamo d&rsquo;accordo.<br>
+Si usa la parola caso per indicare appunto la mancanza di spiegazione o di connessioni causali o di regole. Un entità causa di sé stesso, se tale causazione è spiegabile, non è casuale.<br>
+Il caso è appunto l&rsquo;indeterminato.<br>
+Se non lo intendi così, torniamo a quanto dicevo sopra: stiamo parlando di due cose diverse. E va benissimo. Non ho nulla da obiettare ad una tale teoria.<br>
+Per questo non posso che raccomandare di nuovo e caldamente una preliminare chiarificazione concettuale, o almeno un accordo stipulativo, prima di applicare dei termini ad una interpretazione della matematica. Termini che se usati impropriamente possono portare delle confusioni.</p>
+<p>Per il primo punto: non è detto che sarebbe infatti una BUONA filosofia quella che postulasse cause non fenomeniche ad hoc. Probabilmente anzi sarebbe una filosofia molto barocca e poco funzionale. Ma metodologicamente è una scelta possibile.</p>
+<h3 id="comment-by-andrea-on-2015-01-06-132025-0000">Comment by Andrea on 2015-01-06 13:20:25 +0000</h3>
+<p>Sì ma Aaron sopra mi sembra di essere abbastanza chiaro, ho distinto fra causa, probabilità, e determinabilità. Quindi cosa intendo con caso in quale contesto mi sembra piuttosto chiaro, con tanto di esempi (a differenza appunto della tradizione filosofica che è piuttosto fumosa a proposito, proprio perchè non si appoggia a una fenomenologia chiara).<br>
+Moneta classica -&gt; probabilistica, deterministica, fisicamente non casuale.<br>
+Moneta quantistica -&gt; probabilistica, deterministica, fisicamente casuale.<br>
+Pensieri Pensabi -&gt; non probabilistici, non determinabili, fisicamente non casuali.</p>
+<p>Ora non mi far riscrivere ciò che ho scritto sopra dal principio, se hai dubbi parti da quello che è fenomenologia (e per quanto mi riguarda scolpita nella pietra), mica da Aristotele once again&hellip; al massimo puoi interpretare quello, che è fenomenologico, con Aristotele (hint, tagliando il salame a fette grosse: fisicamente casuale = causa efficace, determinabile = causa formale), oppure con Wittgenstein (fisiamente non casuale = nesso causale, deterministico = nesso logico) o come ti pare.</p>
+<h3 id="comment-by-minstrel-on-2015-01-08-174024-0000">Comment by minstrel on 2015-01-08 17:40:24 +0000</h3>
+<p>esattamente come sta dicendo Aaron alla fine io intendo per caso proprio il caos assoluto e come vedi ci troviamo d&rsquo;accordo e non vedo come potrebbe essere altrimenti. Il parlare di caso, nel tuo caso (ehm) Andrea, è ragionare di cosa sia spiegabile in termini scientifici e cosa invece no, ma in termini metafisici questa limitazione (chiamiamola cosi) non comporta affatto che sia caos.E questo sia in una metafisica kantiana che io non sposo e tantomeno in quella tomista. In primis perché cio che misura o prevede la scienza non è affatto tutta la realtà, evvabeh, ma soprattutto perché il metodo stesso della scienza prevede la nozione di previsione del modello che, per quanto importante essa sia, è comprensibile solo all&rsquo;interno del modello stesso.<br>
+è per questo che una esperienza è replicabile nella scienza, perché il reale quando è questionato con una esperienza precisa e sotto un certo aspetto, risponde sempre allo stesso modo. cambiando domanda cambia però la risposta (scala degli atomi a dimostrazione) e soprattutto è necessario che le nozioni della domanda siano culturalmente comprensibili e accettate. questo comporta di nuovo che se ci sono domande che non si possono porre per via sperimentale è impossibile comprenderne qualsiasi risposta con tale metodo.<br>
+sto mettendo troppa carne al fuoco. ho intenzione comunque di rispondere presto sul blog a questI tre bei articoli, soprattutto a questo primo che pretende di definire cosa debba essere il realismo e quindi a quali condizioni si debba sottostare per essere conformial cosiddetto reale. il realismo per il tomista è diverso, pertanto anche su questo termine c&rsquo;è un fraintendimento da chiarire. a tempo debito se Dio vorrà vedremo di risolverlo. 🙂</p>
+<h3 id="comment-by-andrea-on-2015-01-08-215135-0000">Comment by Andrea on 2015-01-08 21:51:35 +0000</h3>
+<p>Sì ma di nuovo parlare del cosiddetto caos &ldquo;assoluto&rdquo; non è affatto detto che sia diverso che parlare del cosidetto &ldquo;sesso degli angeli&rdquo;. Innanzitutto dobbiamo mettere sul piatto ciò che sappiamo, per certo, quindi fenomenologicamente, sul caso. Ed eccolo qui. Poi solo una volta che la tavola è apparecchiata possiamo mangiare.</p>
+<p>Non bisogna confondere i due piani. Che è vero che sono comunicanti ma non bisogna farne proprio un pastone (oddio, in linea di principio non si sa, ma meglio procedere con ordine).</p>
+<h3 id="comment-by-minstrel-on-2015-01-08-225334-0000">Comment by minstrel on 2015-01-08 22:53:34 +0000</h3>
+<p>È pura linea logica. Se ritieni che sul piatto ci siano cose &ldquo;che sappiamo di certo&rdquo; è perché ritieni che le presunte leggi delineate nei modelli propri della scienza esistano e funzionino sempre ed ovunque e siano quanto meno parte del reale che si fa conosciubile perché&quot;formato&rdquo; da una razionalità comprensibile. Implicitamente la realtà scientica non può essere caos per pensarsi conoscenza.</p>
+<h3 id="comment-by-andrea-on-2015-01-09-073256-0000">Comment by Andrea on 2015-01-09 07:32:56 +0000</h3>
+<p>E a quel punto ti rimando al primo articolo del minimo pratico sul fatto che la &ldquo;linea logica&rdquo; non può esistere, ma serve una &ldquo;struttura&rdquo; che coerentemente, circolarmente, deve reggersi in piedi. 🙂</p>
+<p>Ovvero abbiamo stabilito un conoscibile e un metodo di conoscenza basandoci su cose più banali di questa, poi abbiamo sofisticato la nostra fenomenologia, ora possiamo sofisticare la nostra filosofia&hellip;etc&hellip;</p>
+<p>Se pretendi di calare dall&rsquo;alto, apoditticamente, dei &ldquo;principi primi&rdquo; ai quali tutti devono sottostare, o fai cose MOLTO, MOLTO, MOLTO più sofisticate (filosofia analitica dei principi logici, ovvero assumi una logica generale. Ma niente PNC&hellip;etc&hellip; e niente filosofia a parole, ma matematica estremamente sofisticata, te lo garantisco. Nessuno ci ha combinato nulla di conclusivo che io sappia, per ora.) oppure ti pieghi al fatto che vivi nel mondo e col mondo devi dialogare. Dialogare = avanti e indietro.</p>
+<p>PS: vedo che finalmente ho capito come non moderare i commenti, era il link al sito che mandava fuori di testa 😛</p>
+<h3 id="comment-by-minstrel-on-2015-01-09-104926-0000">Comment by minstrel on 2015-01-09 10:49:26 +0000</h3>
+<p>E io ti rimanderò al mio articolo in cui, banalmente, dico che se una linea logica universale non può esistere allora non esiste alcuna logica, ma quella che viene definita &ldquo;logica&rdquo; da te è solo una illusione circolare che si autoregge e non si aggrappa ad alcun reale inteso come esistente a sé stante, ma ad un fittizio reale osservato sotto aspetti puramente &ldquo;mito-logici&rdquo; dello stesso. Il termine &ldquo;mitologico&rdquo; va inteso in senso antico, voviamente. Si! Richiamo Simon consapevole che tale nozione è oggi portatrice di misunderstanding e non di comprensione, lo faccio per spirito &ldquo;polemico&rdquo; 😀<br>
+In breve: la tua nozione di &ldquo;logica&rdquo; è ontologicamente nulla. Con la logica l&rsquo;uomo CREDE di cogliere il reale, invece COGLIE SOLTANTO quel che la sua logica autocostruita fa cogliere. La tua visione non permette di cogliere ALCUNA ONTOLOGIA, non esiste l&rsquo;ontologia dell&rsquo;ente che vai misurando, tutto è solo modello precostruito con il quale questioni un presunto reale che non ha alcuna appiglio ontologico.<br>
+E qualcuno citava Sartre&hellip; 😉</p>
+<p>Si, io vivo nel mondo e del mondo rispetto in primis ciò a me appare: un qualcosa che mi si mostra in molteplici aspetti, molti dei quali il metodo chiamato scientifico non può cogliere completamente per evidenti limiti autoimposti dello stesso. Esistono domande che nascono dal reale in noi che SONO RAZIONALI in quanto comprensibili, cioè che prendono aspetti del reale che appaiono &ldquo;formati&rdquo;, con una forma che permette la domanda. Again: se ci sono domande che non si possono porre per via sperimentale è impossibile comprenderne qualsiasi risposta con tale metodo.<br>
+Esempi.<br>
+La domanda &ldquo;E' possibile pensare il reale in modo integrale?&rdquo; è assolutamente legittima, non è &ldquo;sbagliata&rdquo; (se si dove?!), e il fatto che la scienza non possa pensare il reale in modo integrale non demolisce affatto la domanda, tutt&rsquo;al più sottilinea il limite che si impone la scienza nello studio del reale. Tu mi puoi dire che non si può pensare usando la logica degli insiemi all&rsquo;insieme più grande di tutti perché esisterà sempr&hellip; blabla rispondo io! Il reale, quando lo pensi, lo pensi a forma di insiemi astratti o qualcosa d&rsquo;altro? Come puoi pensare che sia PRENDIBILE, FORMATO, un reale che è praticamente IMPRENDIBILE come lo è il pensare l&rsquo;insieme degli insiemi infiniti e blabla. Sei tu il primo a dirmi che questa matematica altissima non sta portando a niente! Figurati, io sono uno di quelli che non vorrà nemmeno mai capirla perché per me è tempo perso&hellip;<br>
+Questo reale, anche infinito se vuoi, permette un pensiero umano che lo VEDA NELLA TUA INTEGRALITA' e questo proprio perché CI PERMETTIAMO di CHIAMARLO &ldquo;REALE&rdquo;, di farne nozione - appunto! - COMPLETA in UN solo termine.<br>
+Ma il reale è un &ldquo;avanti e indietro&rdquo;! NO! Il reale, alcuni aspetti del reale, sotto il punto di vista scientifico QUANTITATIVO è &ldquo;avanti e indietro&rdquo;. Ma l&rsquo;aspetto quantitativo non è l&rsquo;unico. La logica matematica non è l&rsquo;unica. La matematica non è assoluto.<br>
+Altra domanda: &ldquo;il reale integrale può essere e non essere allo stesso tempo, sotto il medesimo aspetto e attributo per poterlo pensare reale?&rdquo; Risposta NO.<br>
+Altra domanda&hellip; blablabla me faccio anderstend?<br>
+Spiegherò meglio poi, spero. Spero per me ovvio.</p>
+<p>E se anche fosse che la logica universale dell&rsquo;essere è impossibile poiché nessuna logica è possibile, allora entra nella mia logica e demoliscimi il discorso. E freghiamocene se questa mia logica, come la tua, risult ontologicamente inconsistente. Cioè parlarne è come dire: discutiamo giusto per scoprire il sesso degli angeli sotto il punto di vista di minstrel e non sotto quello di Andrea. Capito cosa c&rsquo;è in ballo quando dici &ldquo;la logica? Pfui&hellip;&rdquo;</p>
+<p>PS: ora sono libero di scrivere stronzate, as usual! Yuuuuuu! 😀</p>
+<h3 id="comment-by-andrea-on-2015-01-09-120843-0000">Comment by Andrea on 2015-01-09 12:08:43 +0000</h3>
+<p>Te lo gia' &ldquo;demolito&rdquo; il discorso.<br>
+1- Apoditticamente sulla realta' non e' possibile dire alcunche', come ogni matematico tirato in ballo a sproposito ben sa. Appunto con la logica non si coglie il reale, ma io non ho questa pretesa, tu ce l&rsquo;hai. Di fondare una logica, e su quella e solo quella costruire.<br>
+2- Il fatto che esistano infinite possibile logiche, un insieme infinito delle quali consistente con &ldquo;cio' che ti appare&rdquo;, e' evidente manifestazione che non e' proprio possibile decretare la tua preferita come LA logica dell&rsquo;UNICA realta' se non come dogma. Ovvero mito, neanche logico.</p>
+<p>Lo strutturalismo non e' &ldquo;illusione circolare&rdquo;: e' realta', e' prassi e efficacia conoscitiva, al contrario di quel mito che stabilisce un dogma conoscitivo statico.</p>
+<h3 id="comment-by-andrea-on-2015-01-09-125846-0000">Comment by Andrea on 2015-01-09 12:58:46 +0000</h3>
+<p>Ah comunque quella che tu chiami &ldquo;logica matematica&rdquo; e' LA logica, non esiste logica che non sia formalizzabile come matematica proposizionale!<br>
+Consciamente o no, stai fondando anche tu tutto sulla matematica, ma una matematica ingenua, implicita ed elementare. Cosi' elementare che puo' essere espressa a parole senza cadere in fallo.<br>
+Appunto una matematica vecchia di 2500 anni, nulla piu' nulla meno di cio'.</p>
+<p>Quindi non credere di stare &ldquo;andando oltre&rdquo;, stai solo considerando un caso speciale, di cio' che puo' essere fatto in modo piu' generale. Quindi dovresti in realta' motivare come mai a te piace questo caso speciale, questo tuo pregiudizio. E realmente non puoi farlo.</p>
+<p>Lo strutturalismo, a ben guardare, e' la salvezza del realismo (tutto) e in special modo del realismo in logica, che altrimenti rimarrebbe arenato come un caso pregiudiziale storicamente arenato di quegli &ldquo;universi apodittici&rdquo; di cui parlava Husserl.</p>
+<p>Non sto neanche parlando di esperimenti scientifici tout cour e se la scienza o meno esaurisca in che misura, dove, come&hellip; al massimo era argomento del primo post, ma neanche quello: sarebbe un <em>massimo epistemologico</em>, non un <em>minimo pratico</em>. Vedo che alla fine vai sempre a parare li', ma non e' questo il punto.<br>
+In questo caso mi rifaccio agli esperimenti scientifici, perche' si parla di caso, probabilita', determinismo, lanci di monete, che sono ambito scientifico purissimo.<br>
+Sono minimi pratici, e qui la pratica scientifica fornisce input (quasi) <strong>chiari, inequivocabili e inescapibili</strong>.<br>
+Se hai <strong>altre</strong> domande, a cui si possono rispondere con &ldquo;esperimenti mentali&rdquo; o altre investigazioni del reale piu' &ldquo;soft&rdquo;, ok&hellip; ma<br>
+1- comunque sempre con il reale devi dialogare, in qualche modo, a un certo punto. Altrimenti non fai filosofia, ma poesia.<br>
+2- Non e' argomento del post pero'.</p>
+<h3 id="comment-by-minstrel-on-2015-01-09-145146-0000">Comment by minstrel on 2015-01-09 14:51:46 +0000</h3>
+<p>Interessante che esista solo la logica matematica. Allora il reale in quanto tale, TUTTO, va da essere ascritto ad una logica matematica. L&rsquo;amore è reale? Bene, deve avere una logica matematica. Ma non &ldquo;l&rsquo;amore&rdquo; generale neh, ma quell&rsquo;esperienza che tu chiami così quando guardi la tua bella! E' due più due lì? O meglio: è forse la matematica di oggi che io non voglio nemmeno sapere come si chiama?! E quel TUO sentire se non è esprimibile in logica matematica, se non è esprimibile in logica, cosa è? Poesia? E non è mica reale?!?<br>
+E La liberta? No, non quella nozione generale che&hellip; ma proprio la tua libertà. Ad esempio di fare il contrario di ciò che ti sembra &ldquo;bene&rdquo;. Lo puoi fare? E come analizzi quella possibilità di fare il male o il bene? E il Bene, con quale logica matematica lo sistemiamo? Ma il bene che tu fai neh, mica in generale! E non è mica reale?!? E' reale solo il matematizzabile logicamente?!<br>
+Può la logica matematica che tu reputi assoluta gestire la qualità? I qualia? O se lo fa sta RIDUCENDO le qualità a mere quantità da gestire (non toccando quindi l&rsquo;ontologia di tali qualia)?!</p>
+<p>Tutto è riconducibile alla matematica e alla sua logica lo diceva anche quel professore di matematica che invitò un giorno in conferenza Giovanni Reale. Esperienza che quest&rsquo;ultimo narrò in una delle ultime edizioni del Festival Filosofia di Modena (dovrei ancora avere l&rsquo;mp3 in giro&hellip;).<br>
+Reale cominciò decantando proprio questi aspetti volendo poi cominciare a trattare della metafisica.<br>
+Ecco che salta fuori questo qui che dice: &ldquo;ma cosa dice mai! Tutto è matematica, soprattutto la logica che vuole usare lei e che sta usando in questo momento&rdquo;. Reale lo lascia continuare e poi gli chiede una roba del tipo: &ldquo;mi scusi, ma quando lei sente dentro di sé che ama sua moglie e glielo deve far capire deve fare due più due?&rdquo;<br>
+Al che il professore si alza e sbraitando lo manda a fare un giro nell&rsquo;iperuranio del culo.<br>
+Imbarazzo.<br>
+Reale guarda gli astanti e dice: &ldquo;ma che ho detto?!&rdquo;<br>
+E uno dei professori in platea: &ldquo;ha fatto un grave errore. Il professore di matematica sta divorziando dalla moglie per il motivo che lei ha così ben esplicitato ora&hellip;&rdquo;</p>
+<h3 id="comment-by-andrea-on-2015-01-09-153915-0000">Comment by Andrea on 2015-01-09 15:39:15 +0000</h3>
+<p>Mauro: &ldquo;non esiste altra logica se non la logica matematica&rdquo; non significa &ldquo;esiste solo la logica&rdquo;.<br>
+Che la logica sia una branca della matematica e si identifichi con una trattazione preposizionale e' teorema neh, si deve a Goedel, ma sfoglia la sesta preposizione del Tractatus di Wittgenstein e ne hai un&rsquo;esempio di come si possa fare filosofia mischiando parole e simboli, se si e' capaci. E non dire che Wittgenstein e' frocio e non vale e non ha capito niente, uno puo' fare LO STESSO col tuo adorato Tommaso e trasformare la logica in matematica e viceversa (almeno quando e' cosi' semplice). Appunto la corrispondenza e' biunivoca, una preposizione logica e' una preposizione matematica, e, quando non diventa troppo complicato per poterlo fare dato il numero di parole ed espressioni limitate nel nostro limitato linguaggio, viceversa.</p>
+<p>Evidentemente, se senti che hai bisogno di altro dalla matematica, significa che hai bisogno altro dalla logica. Non altro dalla matematica, altro dalla logica! Ergo anche filosofia e metafisica sono tanto parziali sul reale quasi quanto la scienza dato che devono comunque basarsi su questo strumento!<br>
+Che a quanto pare, come tu stesso dici, spieghi e dimostri, e' limitato.</p>
+<p>Giustissimo: La scienza e la filosofia sono limitate entrambe e l&rsquo;unica cosa totale e' l&rsquo;arte, e questa e' una verita' a cui (parzialmente) ascrivo, per quanto non c&rsquo;entri molto col topic.<br>
+Grazie e arrivederci, e fai l&rsquo;artista! 🙂</p>
+<h3 id="comment-by-minstrel-on-2015-01-09-164522-0000">Comment by minstrel on 2015-01-09 16:45:22 +0000</h3>
+<p>se l&rsquo;arte dice di più della matematica del reale allora il linguaggio è più assoluto della matematica. comunque come ripeto cercherò di risponderti come meglio possodi là. tratta bene la tua bella intanto e buon lavoro! 🙂</p>
+<h3 id="comment-by-andrea-on-2015-01-09-173337-0000">Comment by Andrea on 2015-01-09 17:33:37 +0000</h3>
+<p>L&rsquo;arte mica è solo linguaggio, come tu ben sai! 😛 E anche quando è linguaggio segue regole che il linguaggio filosofico non può seguire, molto più libere e che quindi ne espandono enormemente il contenuto possibile.</p>
+<p>E non è questione di essere assoluti, ma totali perchè appunto requisito di una descrizione assoluta sarebbe anche la precisione cosa che la matematica può essere, ma l&rsquo;arte no.</p>
+<h3 id="comment-by-minstrel-on-2015-01-09-202101-0000">Comment by minstrel on 2015-01-09 20:21:01 +0000</h3>
+<p>Il requisito di una descrizione assoluta, totale (meglio integrale!) non è affatto la precisione, bensì la confusione. Con-fuso, tutto fuso insieme. La precisione è nel particolare di un aspetto. 😉</p>
+<h3 id="comment-by-minstrel-on-2015-01-09-202432-0000">Comment by minstrel on 2015-01-09 20:24:32 +0000</h3>
+<p>Per questo si dice che la logica è il riflesso speculare dell&rsquo;essere poiché tutto parte dall&rsquo;intuizione che è l&rsquo;essere unito all&rsquo;atto del conoscere. Difatti quando conosciamo che qualcosa &ldquo;è&rdquo; al contempo definiamo quel che &ldquo;non è&rdquo;. La logica è necessariamente più grande della matematica, al massimo è riducibile ad essa. Non foss&rsquo;anche perché tutte le dimostrazioni matematiche per essere tali debbono essere&hellip; logiche.</p>
+<h3 id="comment-by-andrea-on-2015-01-09-204741-0000">Comment by Andrea on 2015-01-09 20:47:41 +0000</h3>
+<p>Infatti, dato che alle dimostrazioni matematiche serve la logica, la logica è un campo della matematica. 🙂<br>
+In modo simile in cui la matematica è un campo della Fisica. 😉</p>
+<p>Davvero, queste non sono opinioni: la logica classica è una classe della logica formale. La logica formale è una parte della matematica (prima di fare logica è necessario imparare a contare, difficile spiegarti il perchè nel caso generale ma per definire un Vero e un Falso devi aver un 1 e uno 0, una somma e un uguale). Con &ldquo;è una classe/parte&rdquo; intendo proprio nel senso della &ldquo;teoria degli insiemi&rdquo; (che è parte della logica matematica, lol), cioè è veramente dimostrato formalmente (e non dal filosofo tal dei tali nel sistema filosofico tal dei tali. Proprio matematicamente!) che la logica aristotelica che ti piace tanto è un caso particolare di un caso particolare della matematica.</p>
+<p>&ldquo;Più grande&rdquo; e definire &ldquo;ciò che è&rdquo; e &ldquo;non è&rdquo; sono cose medioevali, e non in senso positivo. Get over it.</p>
+<p>Stai cercando in questi ultimi post di porre la logica e la metafisica al di fuori (e al di sopra) dall&rsquo;assetto matematico, ma ne è all&rsquo;interno con entrambi i piedi e non potrebbe essere altrimenti. La metafisica e il resto della filosofia (escludendo gli irrazionalisti tedeschi e francesi, che appunto nascono dalla realizzazione della discussione che stiamo avendo qua) è fondata sulla logica, e la logica è formalmente parte della matematica.</p>
+<p>La matematica è in effetti, come ho detto nel primo articolo, è in realtà la forma più generale di conoscenza sistematica (sistematica include la filosofia, include parlare di qualia. esclude l&rsquo;arte, esclude parlare d&rsquo;amore) che conosciamo.</p>
+<p>Come direbbe Claudio: &ldquo;Sorry mate&rdquo;, pensavi di usare solo parole, ma se gratti a sufficienza ti ritrovi sempre con la matematica 😉</p>
+<h3 id="comment-by-minstrel-on-2015-01-09-220049-0000">Comment by minstrel on 2015-01-09 22:00:49 +0000</h3>
+<p>Ma avrà grattato abbastanza il professore che si infuria con Reale? La filosofia deve studiare anche ciò che non è matematizzabile e in modo ovviamente non matematizzabile. Il tutto matematizzazione diventa il tutto della matematica e non quello del reale che supera la matematica. la pretesa della metafisica e studiare l&rsquo;integrale dell&rsquo;ente e pertantopensare non in termini astratti ma secondo un puro senso comune che implicitamente anche tu riconosci nel tuo primo articolo ma demolisci non potendo affatto definire cosa sia l&rsquo;essere e cosa non lo sia poiché appunto non non permette l&rsquo;esistenza di una logica più reale quella matematica. quando infatti dico che per te la matematica è assoluta significa che la matematica è più reale del reale stesso, il quale necessariamente deve sottostare all&rsquo;intuizione Parmenidea se vuole essere pensato come prendibile, razionalizzabile e quindi formalizzabile.<br>
+non so che filosofia tu abbia studiato o quale implicitamente tu richiami nel finale, ma una filosofia che non spieghi l&rsquo;amore o la libertà o La giustizia o la verità, cioè ciò di cui fa di un uomo un uomo, è una filosofia talmente monca da qualificarsi da sè.</p>
+<h3 id="comment-by-minstrel-on-2015-01-09-220153-0000">Comment by minstrel on 2015-01-09 22:01:53 +0000</h3>
+<p>chiedo scusa degli errori ma il cellulare capisce due parole e tre no&hellip;</p>
+<h3 id="comment-by-minstrel-on-2015-01-09-231605-0000">Comment by minstrel on 2015-01-09 23:16:05 +0000</h3>
+<p>Ma tu guarda, appena reperito su CS da Masiero: &ldquo;La mia domanda (retorica) di avere un esempio di “verità scientifica” è motivata dalla mia concezione della scienza sperimentale, come di un insieme di predizioni riguardanti i fenomeni, non la “realtà” (per giunta predizioni solo provvisoriamente corroborate e sempre falsificabili). Insomma</p>
+<ul>
+<li>se la verità è definita come l’uguaglianza della parola con la realtà,</li>
+<li>poiché la “realtà” non cade sotto il dominio della scienza sperimentale, ma è un concetto appartenente alla filosofia (Hawking: “Io non so cosa sia la realtà… una teoria fisica è solo un modello matematico e non ha senso chiedersi se essa corrisponde alla realtà. Mi accontento che faccia delle predizioni osservabili”),<br>
+allora la scienza sperimentale non contiene, né mai conterrà, verità.<br>
+Che cos’è il “vuoto”? Che cos’è la “carica”? Anche solo a livello fenomenico, la risposta a queste due domande che darebbe un fisico di oggi risulterebbe del tutto incomprensibile a Rutherford. E a livello di “realtà” il fisico di oggi è più muto di Democrito, che credeva invece di poterne parlare con gli atomi.&rdquo;<br>
+Quanto alla matematica Tommaso diceva che era parte della natura di Dio a quanto pare, indaghere nel contra gentiles! &lsquo;Notte!</li>
+</ul>
+<h3 id="comment-by-andrea-on-2015-01-10-072309-0000">Comment by Andrea on 2015-01-10 07:23:09 +0000</h3>
+<p>Quindi, in tal caso, stai ammettendo che con un metodo logico, quindi matematico, sia possibile investigare anche la natura di amore e affini, e anche tu stai sticazzando Reale.<br>
+Così sei più beceramente realista di quanto lo sia io, ma basta essere coerenti e rendersene conto.</p>
+<h3 id="comment-by-andrea-on-2015-01-10-072517-0000">Comment by Andrea on 2015-01-10 07:25:17 +0000</h3>
+<p>Quindi mi citi posizioni idealiste. Ti rendi conto da solo quanto questa visione, per quanto abbozzata e piccina picciò e francamente stonata in una discussione di livello come la nostra, sia lontana dal realismo di Tommaso vero? 🙂</p>
+<h3 id="comment-by-minstrel-on-2015-01-10-091618-0000">Comment by minstrel on 2015-01-10 09:16:18 +0000</h3>
+<p>No perché la logica per me é matematizzabile a reductio in quanto la logica è la forma del reale, la matematica ne é la possibile formulazione materiale, secondo la consueta divisione aristotelica. Il reale é formato dalla logica che è studio dell&rsquo;ente di ragione ossia del pensato in quanto pensato.<br>
+per il resto tu ritieni con il tuo errore che l&rsquo;ontologia dovendo essere logica in primis matematica. la matematica è sempre considerazione dell’essere solo nel suo aspetto di uno-molteplice, sotto la considerazione di una sola delle sue proprietà tra scendentali, ma sopra tutto, prescinde affatto dall’esistenza. Il che mi sembra sufficente a &lsquo;distinguerla dall&rsquo;ontologia.<br>
+ma cerche di far meglio poi. Non per farti cambiare idea, ma per pulire quel che pensi sia la mia.</p>
+<p>Again: la filosofia è studio dell&rsquo;intero e della vita umana. Oggi, comunemente, si intende per metafisica una teoria del l’Assoluto, cioè una teoria che, se anche non parte dall’Assoluto, tuttavia tende ad esso, perchè appunto tende ad affermare una realtà che ha in sè la ragion sufficiente del suo essere, che non ha bisogno di altro per esistere. Infatti, finché non si sia trovata una tale realtà, non si può dire di aver spiegato il reale nella sua totalità, dato che tut to ciò che è relativo ha bisogno di altro per esistere (la matematica con la logica prora del reale!) quindi non può essere tutta la realtà.<br>
+Cito la vanni:Il problema della vita è implicito nel problema del tutto, ma anche questo è implicito in quello. Infatti, come fa bene osservare A. Masnovo, per sapere quale significato ha la vita umana bisogna vedere d’onde essa venga ed a che cosa termini. Sono io il prodotto di forze cieche o di una Provvidenza ordinatrice ? Il termine della mia vita è il nulla o è il conseguimento di un’altra vita, più intensa e più alta ? Ora, per rispondere a questa domanda dobbiamo svolgere tutta la filosofia: dobbiamo risolvere il problema di Dio, dell’universo, dell’anima umana. Dobbiamo dunque studiare tutta la realtà.</p>
+<h3 id="comment-by-andrea-on-2015-01-10-092650-0000">Comment by Andrea on 2015-01-10 09:26:50 +0000</h3>
+<p>Cosa significa &ldquo;matematizzabile a reductio&rdquo;?</p>
+<p>La matematica non riguarda affatto per forza l&rsquo;aspetto &ldquo;uno rispetto al molteplice&rdquo;, la matematica mica è aritmetica!</p>
+<h3 id="comment-by-minstrel-on-2015-01-10-105851-0000">Comment by minstrel on 2015-01-10 10:58:51 +0000</h3>
+<p>Puoi fare un analogia tra un paedaggio e ls pittura che ne fai&hellip; puoi poi cambiare i colori e le forme della tua pittura: essa rimane pitzura ma non corrisponde piu al paesaggio.Cosi della logica: puoi matematizzarla eppoi puoi cambiarne le regole.<br>
+comunque ora sono pronto visto che mi sembra di avere compreso la tua posizione. appena ho tempo faccio un post. ciao grazie! 🙂</p>
+<h3 id="comment-by-andrea-on-2015-01-10-114333-0000">Comment by Andrea on 2015-01-10 11:43:33 +0000</h3>
+<p>L&rsquo;analogia non regge, perchè la materiaè stata studiata formalmente con precisione matematica. Da Boole in poi la logica è dominio formale (e questo ha un significato preciso) della teoria degli insiemi che è dominio formale della matematica.</p>
+<p>C&rsquo;è una corrispondenza biunivoca (che ha un significato preciso), non solo analogica (come fra paesaggio e pittura), fra la logica classica aristotelica, e i simbolini matematici, che rappresentano un caso particolare di cui la matematica è la materia.</p>
+<p>Questo è un <strong>fatto</strong>, di nuovo <strong>inescapibile</strong>, non wishful thinking. Ogni volta che usi &ldquo;se -&gt; allora&rdquo; usi una matematica, per quanto di livello elementare.</p>
+<p>Nella filosofia c&rsquo;è altro che logica, certo, si arriva appunto persino gli &ldquo;irrazionalisti&rdquo; che appunto scaturiscono da questa dialettica. Nella <em>tua</em> filosofia sia ammesso altro che logica? Non mi pare. Dove nella filosofia tomista sarebbe ammesso uscire dalla logica, se Dio stesso sarebbe definito Logos?</p>
+<p>Ergo se non si esce dalla logica, peraltro classica, e quindi dalla matematica, cosa può dire esattamente di più tale filosofia della fisica?<br>
+Che ha un limite formale più lasco della tua (ribadisco tua) filosofia, che apoditticamente cerchi di far rientrare non nella logica classica (che è un caso particolare di logica che è un caso particolare di matematica) ma nella matematica (che è un sistema <strong>per definizione</strong> più generale?</p>
+<p>Aspetto quindi il blogpost con la risposta a queste domande! 🙂</p>
+<p>Ma per favore non divagando creando realtà in cui la logica non sia matematica, perchè la logica, specialmente la classica che ti piace, lo è.</p>
+<h3 id="comment-by-aaron-on-2015-01-10-123650-0000">Comment by Aaron on 2015-01-10 12:36:50 +0000</h3>
+<p>La logica non è un SOTTOINSIEME della matematica. Si è spesso pensato piuttosto il contrario - si è anche tentato di fondare la matematica sulla base della logica. Se ci pensate, almeno intuitivamente è abbastanza corretto - la logica dovrebbe essere l&rsquo;insieme delle regole generali del pensiero e la matematica è composta da una serie di procedimenti di calcolo mentali, quindi almeno da questo punto di vista ed intuitivamente dovrebbe essere appunto un SOTTOINSIEME di quelle leggi generali.</p>
+<p>Il punto è che i conti non tornano e non tutta la matematica può essere fondata partendo dalla logica.</p>
+<p>Non è però affatto detto che, per questo, la logica sia un sottoinsieme della matematica. Può giovarsi della matematica e delle sue formalizzazioni. Ma i suoi scopi sono affatto diversi da quelli della matematica, e probabilmente anche i suoi oggetti, almeno in parte. Allo stato dell&rsquo;arte di oggi mi risulta che siano considerati due insiemi che si intersecano.</p>
+<p>In quanto &ldquo;studio delle leggi generali del pensiero&rdquo; secondo me è sbagliato sostenere in modo puro e semplice che &ldquo;vi sono un numero infinito di logiche possibili&rdquo;. Alcune logiche non possono essere costruite perché autocontraddittorie, altre sono semplici artifici verbali o funzionano solo stiracchiando i concetti, altre ancora sono semplici formalizzazioni e non sono interpretabili in alcun modo (e si può chiedere se una costruzione del genere sia ancora una logica vera e propria, dato che non è detto risponda a quello scopo da me esposto).<br>
+Probabilmente si possono costruire un numero quasi-infinito di logiche a patto che non si violino certi principi; ma alcune di esse non sono applicabili alla realtà (alla realtà &ldquo;intuitivamente&rdquo; appresa, a priori di qualsiasi formulazione scientifica).</p>
+<p>Vi è però anche l&rsquo;alogico (non l&rsquo; IL-logico, nel senso che la realtà che noi FENOMENOLOGICAMENTE incontriamo la incontriamo sempre secondo il filtro della nostra struttura mentale e quindi essa non può contraddire la logica, altrimenti non saremmo nemmeno in grado di farne esperienza, o quantomeno non di verbalizzarla). Non credo che dai principi più generali del pensiero si possa dedurre integralmente, per esempio, un fenomeno sentimentale. Qui è Reale (e Ministrel) ad essere in torto, a mio avviso. Quelle esperienze certamente non sono illogiche e quindi rispettano le leggi più generali dell&rsquo;esperienza, ma di certo non possono essere dedotte integralmente partendo da queste.</p>
+<h3 id="comment-by-minstrel-on-2015-01-10-133356-0000">Comment by minstrel on 2015-01-10 13:33:56 +0000</h3>
+<p>Guarda che da un punto di vista filosofico qui l&rsquo;idealista sei tu che scambi una sintassi con la &ldquo;sostanza&rdquo; che essa può esprimere, una analogia con il portato conoscitivo che la precede. aaron sotto spiega bene, as usual. 😉</p>
+<h3 id="comment-by-andrea-on-2015-01-10-133644-0000">Comment by Andrea on 2015-01-10 13:36:44 +0000</h3>
+<p>Prima le cose facili e banali: ne abbiamo parlato una volta, e mi sembrava che la conclusione fosse proprio che esistono un numero &ldquo;infinito&rdquo; di logiche. Al massimo che sono riducibili. Se non fosse le logiche a 2, 3, 4&hellip; N valori, dove N è un numero qualsiasi, sono infinite. Poi tutte quelle da 3 a N, con N finito, valori appartengono alla stessa classe. Infinite non riducibili, è una cosa più difficile. Quella non so. Comunque la mia frase aveva un senso puramente iperbolico, non è il caso di andare così sullo specifico. 😉</p>
+<p>Sul fatto che la logica sia un &ldquo;sottoinsieme&rdquo;, io non ho parlato di &ldquo;sottoinsiemi&rdquo; ma &ldquo;parti&rdquo; e &ldquo;classi&rdquo; non è la stessa cosa nella teoria degli insiemi. Infatti, e qui non è il mio campo ma semmai vorrebbe essere il tuo, nella teoria degli insiemi (appunto teoria matematica) che definisce la &ldquo;teoria delle teorie&rdquo;, la logica (che viene definita all&rsquo;interno di questa teoria) è in rapporto ricorsivo con la matematica. Ovvero la matematica deve essere definibile partendo dalla logica e la logica partendo dalla matematica.</p>
+<p>Il rapporto fra matematica e logica è molto complicato in realtà, l&rsquo;ho semplificato dicendo &ldquo;biunivoca&rdquo; perchè la questione si semplifica moltissimo quando si parla di logica classica con l&rsquo;algebra booleana (quindi del caso che concerne a minstrel), ma appunto se è vero che esiste parte della matematica che non appartiene alla logica, non mi pare proprio che esiste parte della logica che non appartiene alla matematica.</p>
+<p>Infatti definizione di logica è un sistema di linguaggio (quasiasi) con concetti di &ldquo;Non&rdquo; &ldquo;Segue&rdquo; &ldquo;Ogni&rdquo; (vado a memoria) e la matematica può fare a meno del concetto di &ldquo;Non&rdquo;, per questo non si può fondare tutta la matematica sulla logica.</p>
+<p>I limiti della logica vengono infatti studiati con la matematica, e la teoria degli insiemi, e sono stabiliti dai teoremi di Goedel ad esempio, cosa che non sarebbe possibile nel caso in cui la logica oltrepassasse la matematica.</p>
+<p>Ciò appunto non ha comunque a che vedere con l&rsquo;applicabilità a un sistema scientifico o filosofico, si sta ancora nella relazione fra logica e matematica (che comunque è un tema matematico, dove per matematica si intende una teoria molto generale ed astratta della conoscenza, non l&rsquo;aritmetica con cui avete probabilmente familiarità).</p>
+<h3 id="comment-by-minstrel-on-2015-01-10-133957-0000">Comment by minstrel on 2015-01-10 13:39:57 +0000</h3>
+<p>non tutta la matematica può essere fondata partendo dalla logica, ma nulla di quanto è possibile fondare e pensare cade al di fuori del pensiero stesso.<br>
+per questo dicevo che la logica è lo studio del pensato in quanto pensato.</p>
+<h3 id="comment-by-andrea-on-2015-01-10-134456-0000">Comment by Andrea on 2015-01-10 13:44:56 +0000</h3>
+<p>Nel tentativo di elevare la filosofia e denigrare la scienza a modellino, si considera un becero idealismo di una realtà iperuranica irrangiugibile dall&rsquo;empirismo che una filosofia altrettanto iperuranica può raggiungere in modo mistico. Hegel per poveri. 😉</p>
+<p>Per carità Masiero lascialo dove sta, che capisce di epistemologia quanto io di Cricket. 😛</p>
+<h3 id="comment-by-andrea-on-2015-01-10-134658-0000">Comment by Andrea on 2015-01-10 13:46:58 +0000</h3>
+<p>Ma non lo è! La logica è una categoria specifica di pensiero, con regole specifiche, non appartiene al tutto il pensato in quanto pensato! Come ha detto Aaron, nel pensato c&rsquo;è l&rsquo;alogico (che non è illogico).</p>
+<h3 id="comment-by-minstrel-on-2015-01-10-144039-0000">Comment by minstrel on 2015-01-10 14:40:39 +0000</h3>
+<p>Allora la tua logica non è quella che io chiamo logica. Per me é studio di tutto il pensato in quanto pensato quindi del pensabile quanto pensabile. tu invece ritieni che essendo la logica potenzialmente analogabile alla matematica, essa sia una sorta di sottoinsieme di quest&rsquo;ultima.in pratica è come se potendo fare analogia con la matematica con quasi tutto allora la matematica è il reale ragionabile, il resto poesia.<br>
+ma di fondo è necessario pensare il reale di cui noi facciamo esperienza, usando le parole di aaron, &ldquo;sempre secondo il filtro&rdquo; del pensiero e &ldquo;quindi essa non può contraddire la logica prima del pensiero, &ldquo;altrimenti non saremmo nemmeno in grado di farne esperienza, o quantomeno non di verbalizzarla&rdquo;. Sarebbe tutto un reale INFORMATO, non formato, Kaos cioè nulla come conoscenza.</p>
+<h3 id="comment-by-minstrel-on-2015-01-10-145044-0000">Comment by minstrel on 2015-01-10 14:50:44 +0000</h3>
+<p>Al di là che mi sa che nessuno di noi due sarebbe in grado di spiegare Hegel, direi di lasciarlo in parte visto che non ci interessa. Il problema è quanto ho scritto dopo: è errore confondere una sintassi con la “sostanza” che essa può esprimere, una analogia con il portato conoscitivo che la precede.</p>
+<h3 id="comment-by-aaron-on-2015-01-10-150223-0000">Comment by Aaron on 2015-01-10 15:02:23 +0000</h3>
+<p>No, invece. Come già detto gli scopi e l&rsquo;oggetto di studio della logica non sono quelli della matematica. Quella basata su &ldquo;Non&rdquo; &ldquo;ogni&rdquo; &ldquo;segue&rdquo; è una applicazione specifica della logica e non la logica in sé.<br>
+Essa è appunto lo studio dei sistemi di regole generali del pensiero.<br>
+Tale finalità esorbita quella della matematica. Per cui la logica in quanto tale non COINCIDE con la matematica né vi è inclusa totalmente, almeno dal punto di vista dei fini. Per fare un analogo molto improprio, anche la fisica si giova di formalizzazioni matematiche ma non E&rsquo; la matematica: divergono quanto a oggetto e scopi.<br>
+Così la logica ha scopi propri e un suo fine, ma si giova di formalizzazioni matematiche. Anche se TUTTA la logica fosse matematizzabile, anche solo per questa differenza le due cose non sono identiche. La matematica è, se vogliamo, un linguaggio di cui la logica si serve.</p>
+<p>Sul secondo punto concordo con Andrea: tutto il pensabile deve essere COMPATIBILE con la logica, ma non è DEDUCIBILE da essa. Le leggi della logica non sono di per sé le leggi di tutto il reale. I due campi per l&rsquo;esperienza umana devono essere compatibili, ma anche in questo caso non coincidono. Un&rsquo;esperienza tattile può essere espressa in parole e pensata, ma non è direttamente deducibile dalle regole supreme del pensiero, né riducibile ad esse.</p>
+<h3 id="comment-by-minstrel-on-2015-01-10-152712-0000">Comment by minstrel on 2015-01-10 15:27:12 +0000</h3>
+<p>Cito Simon: è corretto quando si dice che una esperienza tattile non è direttamente deducibile dal pensiero come ogni situazione esperienzale reale: la logica subentra quando il pensiero conoscendo il reale al quale si identifica emette un giudizio di vero o falso cioè quell&rsquo;esperienza tattile è giudicata o no vera.<br>
+per il resto aaron ha ben spiegato quanto volevo delineare, bravo! Grazie per ora a tutti per questa disputa. 🙂</p>
+<h3 id="comment-by-andrea-on-2015-01-10-152906-0000">Comment by Andrea on 2015-01-10 15:29:06 +0000</h3>
+<p>Ok benissimo, ma il fatto che tutta la logica sia matematizzabile (io credo proprio lo sia e che ci siano teoremi a proposito, mi posso sbagliare ovviamente in tal caso mostrami un esempio di logica non matematizzabile. Sicuramente la logica classica, della quale discute Mauro, è dimostrato corrispondere biunivocamente con la logica Booleana, che addirittura non è una parte della matematica ma è proprio una algebra!), ed è una questione di scopo e finalità rende perfettamente valido ciò che dico sopra. E' il formalismo su cui pongo l&rsquo;accento, formalismo che definisce limiti e strutture. La finalità che definisce scopi e obiettivi della ricerca è un&rsquo;altra cosa.</p>
+<p>La fisica è qualcosa di diverso, perchè non è pura apoditica e puro linguaggio, a differenza di matematica e logica, ma è esperimento e fenomenologia e appunto per la fisica la matematica è davvero un linguaggio e una rappresentazione. E' una cosa un po' diversa, si introducono nuovi layer di realtà. E' più come fra fisica e chimica e ci sta benissimo&hellip; infatti il confine fra fisica e chimica è puramente di comodo.</p>
+<p>Comunque appunto guarda che la finalità della matematica è esattamente lo studio di sistemi di regole generali (non per forza &ldquo;del pensiero&rdquo;, anche se per forza &ldquo;dal pensiero&rdquo;, per quanto scremati il più possibile e distillati da esso), sempre più astratte. Non è certo &ldquo;fare i conti&rdquo;. C&rsquo;è una incomprensione di fondo su cosa sia la matematica ma lo scopo di fondo è appunto generalizzare il più possibile: rimuovere ogni assunto non necessario per una descrizione quanto più generale, e quindi da un certo punto di vista è ovvio che la logica ne sia una parte di ciò.</p>
+<h3 id="comment-by-andrea-on-2015-01-10-153900-0000">Comment by Andrea on 2015-01-10 15:39:00 +0000</h3>
+<p>In soldoni i sentimenti non sono logici. Sono quelle esperienze alogiche di cui Aaron parla, che sono compatibili con la logica, ovviamente, ma non sono deducibili nè descrivibili con sistemi puramente di pensiero logico. Sono descrivibili per mezzo dell&rsquo;arte, volendo che abbandona la purezza del pensiero logico.</p>
+<p>Se fossero logici sarebbero matematici, per definizione di logica, in particolare della logica classica. A questo punto sono descrivibili per mezzo di una filosofia puramente logica, ma anche di una scienza puramente matematica, a seconda della qualità sotto esame.</p>
+<p>Se tu vuoi definire una tua logica includendo anche i sentimenti perchè d&rsquo;altronde devi includere il pensato, e quindi non ha appunto le regole di una logica formale, stai appunto definendo delle regole della tua filosofia, ma ti avverto che inizi piuttosto in salita. 😉</p>
+<h3 id="comment-by-minstrel-on-2015-01-10-155321-0000">Comment by minstrel on 2015-01-10 15:53:21 +0000</h3>
+<p>Ma può anche essere completamente matematizzabile, ma questo non significa che ne sia una branca o un sottoinsieme! Esattamente come ogni espressione matematica è verbalizzabile in linguaggio alfabetico analogo e addirittura esplicabile con lo stesso non fa diventare la matematica un insieme del linguaggio alfabetico. Sono 2 sintassi che analogano il reale pensabile (quindi logico).</p>
+<h3 id="comment-by-andrea-on-2015-01-10-155809-0000">Comment by Andrea on 2015-01-10 15:58:09 +0000</h3>
+<p>Se è completamente matematizzabile, e lo è (specialmente per la classica non ci sono dubbi), i suoi confini e limiti, sono quelli della matematica. Quindi la logica non conosce nulla più della matematica, ed è di quello che si stava discutendo.</p>
+<h3 id="comment-by-minstrel-on-2015-01-10-162205-0000">Comment by minstrel on 2015-01-10 16:22:05 +0000</h3>
+<p>se la matematica è completamente verbalizzabile allora i suoi limiti sono quelli della lingua? Oppure puoi inventarti neologismi?!</p>
+<h3 id="comment-by-andrea-on-2015-01-10-165936-0000">Comment by Andrea on 2015-01-10 16:59:36 +0000</h3>
+<p>Ma la matematica non è completamente verbalizzabile, neanche lontanamente. 🙂<br>
+Però sì, se un sottoinsieme della matematica fosse completamente verbalizzabile i suoi limiti sarebbero quelli della lingua, è il significato di rappresentazione biunivoca o &ldquo;scelta di base&rdquo;.</p>
+<p>Infatti è un buon esercizio capire dove e come è possibile utilizzare quale base.</p>
+<h3 id="comment-by-minstrel-on-2015-01-10-184655-0000">Comment by minstrel on 2015-01-10 18:46:55 +0000</h3>
+<p>Lo fai quando nomini l&rsquo;espressione. Leggila e l&rsquo;hai verbalizzata. Non sai come chuamare qualcosa? Neologismo. La matematica é completamente verbalizzabile. Che poi è una lotta sciocca uella che stiamo facenfo perché fra analogie ci si pareggia. Ognuno esplicita il reale secondo le proprie caratteristiche. 🙂</p>
+<h3 id="comment-by-andrea-on-2015-01-10-194719-0000">Comment by Andrea on 2015-01-10 19:47:19 +0000</h3>
+<p>No, quello non significa affatto verbalizzare, mica si parla di canto! 😛<br>
+Non si tratta di leggere: le definizioni le devi trascinare dietro per dare significato a ciò che leggi &ldquo;letteralmente&rdquo; (che non significa &ldquo;verbalizzare&rdquo;), e non sempre puoi perchè le definizioni matematiche possono contravvenire le regole del linguaggio.</p>
+<p>Non sai di che parli in questo caso, e sto cercando di dirti un po' di cose che dovrebbero farti riflettere un bel po' a tal proposito, non è solo analogia che si pareggia! 😉</p>
+<h3 id="comment-by-minstrel-on-2015-01-10-202233-0000">Comment by minstrel on 2015-01-10 20:22:33 +0000</h3>
+<p>È analogia, André. Ammetto che sia tirata per i capelli, ma è speculare alla condizione reale rappresentabile e rappresentazione dello stesso della matematica, solo a II livello. Cioè la matematica in questo caso fornisce supporto sostanzuale e la parola la rappresentazione della stessa.<br>
+E se non sono io che manco di conoscenza in questo caso, ma tu che manchi di intuizione? Rispondo io: scrivo male robe complesse che necessitano riflessione anche su come scriverle. 😉<br>
+ci rivediamo sul post futuro!</p>
+</section>
+
+
+    <footer class="article-footer">
+    
+    <section class="article-tags">
+        
+            <a href="/phme/tags/filosofia/">Filosofia</a>
+        
+            <a href="/phme/tags/fisica/">Fisica</a>
+        
+            <a href="/phme/tags/meccanica-quantistica/">Meccanica Quantistica</a>
+        
+    </section>
+
+
+    
+    <section class="article-copyright">
+        <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-copyright" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="12" cy="12" r="9" />
+  <path d="M14.5 9a3.5 4 0 1 0 0 6" />
+</svg>
+
+
+
+        <span>All rights reserved</span>
+    </section>
+    </footer>
+
+    
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.12.0/dist/katex.min.css"
+    integrity="sha384-AfEj0r4/OFrOo5t7NnNe46zW/tFgW6x/bCJG8FqQCEo3+Aro6EYUG4+cU+KJWu/X" crossorigin="anonymous">
+<script defer src="https://cdn.jsdelivr.net/npm/katex@0.12.0/dist/katex.min.js"
+    integrity="sha384-g7c+Jr9ZivxKLnZTDUhnkOnsh30B4H0rpLUpJ4jAIKs4fnJI+sEnkvrMWph2EDg4"
+    crossorigin="anonymous"></script>
+<script defer src="https://cdn.jsdelivr.net/npm/katex@0.12.0/dist/contrib/auto-render.min.js"
+    integrity="sha384-mll67QQFJfxn0IYznZYonOWZ644AWYC+Pt2cHqMaRhXVrursRwvLnLaebdGIlYNa" crossorigin="anonymous"
+    onload="renderMathInElement(document.querySelector(`.article-content`));"></script>
+    
+</article>
+
+    <aside class="related-contents--wrapper">
+    
+    
+        <h2 class="section-title"></h2>
+        <div class="related-contents">
+            <div class="flex article-list--tile">
+                
+                    
+<article class="">
+    <a href="/phme/blog/2015/03/25/il-tempo-non-esiste-fenomenologia-di-una-bufala-colta/">
+        
+        
+
+        <div class="article-details">
+            <h2 class="article-title">Il Tempo non esiste: fenomenologia di una bufala colta</h2>
+        </div>
+    </a>
+</article>
+                
+                    
+<article class="">
+    <a href="/phme/blog/2014/12/30/minimo-pratico-proprieta-elementari-e-proprieta-emergenti/">
+        
+        
+
+        <div class="article-details">
+            <h2 class="article-title">[Minimo Pratico] Proprietà elementari e proprietà emergenti</h2>
+        </div>
+    </a>
+</article>
+                
+                    
+<article class="">
+    <a href="/phme/blog/2014/12/07/minimo-pratico-la-necessita-della-pratica/">
+        
+        
+
+        <div class="article-details">
+            <h2 class="article-title">[Minimo Pratico] La necessità della pratica</h2>
+        </div>
+    </a>
+</article>
+                
+                    
+<article class="">
+    <a href="/phme/blog/2016/04/17/cose-la-scienza-il-problema-della-demarcazione/">
+        
+        
+
+        <div class="article-details">
+            <h2 class="article-title">Cos&#39;è la scienza? Il problema della demarcazione</h2>
+        </div>
+    </a>
+</article>
+                
+                    
+<article class="">
+    <a href="/phme/blog/2016/01/08/viaggio-dal-centro-del-sole/">
+        
+        
+
+        <div class="article-details">
+            <h2 class="article-title">Viaggio dal centro del Sole</h2>
+        </div>
+    </a>
+</article>
+                
+            </div>
+        </div>
+    
+</aside>
+
+
+    
+        
+    
+
+    <footer class="site-footer">
+    <section class="copyright">
+        &copy; 
+        
+            2009 - 
+        
+        2021 Ph.Me
+    </section>
+    
+    <section class="powerby">
+        
+            Per commenti, scrivimi ad andrea.idini@gmail.com. Static web, no cookies collected. <br/>
+         <br />
+        
+    </section>
+</footer>
+<div class="pswp" tabindex="-1" role="dialog" aria-hidden="true" style="display:none">
+
+    
+    <div class="pswp__bg"></div>
+
+    
+    <div class="pswp__scroll-wrap">
+
+        
+        <div class="pswp__container">
+            <div class="pswp__item"></div>
+            <div class="pswp__item"></div>
+            <div class="pswp__item"></div>
+        </div>
+
+        
+        <div class="pswp__ui pswp__ui--hidden">
+
+            <div class="pswp__top-bar">
+
+                
+
+                <div class="pswp__counter"></div>
+
+                <button class="pswp__button pswp__button--close" title="Close (Esc)"></button>
+
+                <button class="pswp__button pswp__button--share" title="Share"></button>
+
+                <button class="pswp__button pswp__button--fs" title="Toggle fullscreen"></button>
+
+                <button class="pswp__button pswp__button--zoom" title="Zoom in/out"></button>
+
+                
+                
+                <div class="pswp__preloader">
+                    <div class="pswp__preloader__icn">
+                        <div class="pswp__preloader__cut">
+                            <div class="pswp__preloader__donut"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="pswp__share-modal pswp__share-modal--hidden pswp__single-tap">
+                <div class="pswp__share-tooltip"></div>
+            </div>
+
+            <button class="pswp__button pswp__button--arrow--left" title="Previous (arrow left)">
+            </button>
+
+            <button class="pswp__button pswp__button--arrow--right" title="Next (arrow right)">
+            </button>
+
+            <div class="pswp__caption">
+                <div class="pswp__caption__center"></div>
+            </div>
+
+        </div>
+
+    </div>
+
+</div>
+            </main>
+        </div>
+        <script src="https://cdn.jsdelivr.net/npm/node-vibrant@3.1.5/dist/vibrant.min.js"
+    integrity="sha256-5NovOZc4iwiAWTYIFiIM7DxKUXKWvpVEuMEPLzcm5/g=" crossorigin="anonymous"></script><script type="text/javascript" src="/phme/ts/main.js" defer></script>
+<script>
+    (function () {
+        const customFont = document.createElement('link');
+        customFont.href = "https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap";
+
+        customFont.type = "text/css";
+        customFont.rel = "stylesheet";
+
+        document.head.appendChild(customFont);
+    }());
+</script>
+<link rel="stylesheet" href="/phme/css/highlight/light.min.css" media="(prefers-color-scheme: light)">
+<link rel="stylesheet" href="/phme/css/highlight/dark.min.css" media="(prefers-color-scheme: dark)">
+
+    </body>
+</html>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Set on Ph.Me</title>
+    <link>https://andreaidini.github.io/phme/tags/set/</link>
+    <description>Recent content in Set on Ph.Me</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>it-it</language>
+    <lastBuildDate>Fri, 15 Oct 2010 16:08:40 +0000</lastBuildDate><atom:link href="https://andreaidini.github.io/phme/tags/set/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Una serata sul Set</title>
+      <link>https://andreaidini.github.io/phme/blog/2010/10/15/una-serata-sul-set/</link>
+      <pubDate>Fri, 15 Oct 2010 16:08:40 +0000</pubDate>
+      
+      <guid>https://andreaidini.github.io/phme/blog/2010/10/15/una-serata-sul-set/</guid>
+      <description>&lt;figure id=&#34;attachment_891&#34; aria-describedby=&#34;caption-attachment-891&#34; style=&#34;width: 199px&#34; class=&#34;wp-caption alignleft&#34;&gt;&lt;a href=&#34;https://andreaidini.github.io/phme/wp-content/uploads/2010/10/Laurea-Marghe-e-Spot-Accademia-Lusso-216_web.jpg&#34; rel=&#34;lightbox[896]&#34;&gt;&lt;img class=&#34;size-medium wp-image-891 &#34; title=&#34;Spot - 1&#34; src=&#34;https://andreaidini.github.io/phme/wp-content/uploads/2010/10/Laurea-Marghe-e-Spot-Accademia-Lusso-216_web-199x300.jpg&#34; alt=&#34;&#34; width=&#34;199&#34; height=&#34;300&#34; srcset=&#34;http://www.phme.it/wp-content/uploads/2010/10/Laurea-Marghe-e-Spot-Accademia-Lusso-216_web-199x300.jpg 199w, http://www.phme.it/wp-content/uploads/2010/10/Laurea-Marghe-e-Spot-Accademia-Lusso-216_web.jpg 533w&#34; sizes=&#34;(max-width: 199px) 100vw, 199px&#34; /&gt;&lt;/a&gt;&lt;figcaption id=&#34;caption-attachment-891&#34; class=&#34;wp-caption-text&#34;&gt;La prova di una scena&lt;/figcaption&gt;&lt;/figure&gt; 
+&lt;p&gt;Tutto è stato organizzato nell&amp;rsquo;arco di pochi giorni, l&amp;rsquo;urgenza è forte e lo spot deve andare in onda a breve. L&amp;rsquo;appuntamento è alle 19, in un anonimo capannone alla periferia di Milano attrezzato di tutto punto, si girerà fino a tarda notte. Il concept artistico è imperniato su riprese al rallentatore di vestiti lunghi mossi dal vento, per permettere ciò è necessaria una cinepresa in grado di scattare centinaia (o migliaia) di fotogrammi al secondo, la scelta è caduta sulla cinepresa 35mm Phantom HD, in grado di scattare 1000 fotogrammi al secondo scansionando il sensore con un rapidissimo otturatore elettronico, nonostante la profondità campo e la qualità di livello cinematografico.&lt;/p&gt;
+&lt;p&gt;L&amp;rsquo;utilizzo quindi di banchi di luci molto potenti (circa 30kW in tutto) e ottiche luminose (Un intero corredo Zeiss T/1.3) è necessario per sostenere la cadenza di scatto senza inficiare la qualità delle riprese. La quantità di dati generata dalla cinepresa viene trasferita con uno spesso cavo ethernet 1Gb/s ed il calore generato dissipato tramite ventole e copiosi conduttori di Rame. Anche la regia deve essere dimensionata allo sforzo computazionale necessario ad elaborare una tale mole di dati accessoriata Notebook PC dotati di Nvidia Quadro e desktop MacPro.&lt;/p&gt;</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Informatica on Ph.Me</title>
+    <link>https://andreaidini.github.io/phme/tags/informatica/</link>
+    <description>Recent content in Informatica on Ph.Me</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>it-it</language>
+    <lastBuildDate>Mon, 16 Oct 2017 21:09:52 +0000</lastBuildDate><atom:link href="https://andreaidini.github.io/phme/tags/informatica/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Man on Wire</title>
+      <link>https://andreaidini.github.io/phme/blog/2017/10/16/man-on-wire/</link>
+      <pubDate>Mon, 16 Oct 2017 21:09:52 +0000</pubDate>
+      
+      <guid>https://andreaidini.github.io/phme/blog/2017/10/16/man-on-wire/</guid>
+      <description>Paul Klee, Portrait of an Equilibrist, [MoMA][1]  On one side, the mass of a mountain. A life I know.
+On the other, the universe of the clouds, so full of unknown that it seems empty to us. Too much space. Between the two, a thin line on which my being hesitates to distribute whatever strength it has left. Around me, no thoughts. Too much space. At my feet, a wire.</description>
+    </item>
+    
+    <item>
+      <title>Il supercalcolo universitario (e la ricerca su macchine altrui)</title>
+      <link>https://andreaidini.github.io/phme/blog/2016/03/31/il-supercalcolo-universitario-e-la-ricerca-su-macchine-altrui/</link>
+      <pubDate>Thu, 31 Mar 2016 23:30:50 +0000</pubDate>
+      
+      <guid>https://andreaidini.github.io/phme/blog/2016/03/31/il-supercalcolo-universitario-e-la-ricerca-su-macchine-altrui/</guid>
+      <description>&lt;figure id=&#34;attachment_2333&#34; aria-describedby=&#34;caption-attachment-2333&#34; style=&#34;width: 300px&#34; class=&#34;wp-caption alignleft&#34;&gt;&lt;a href=&#34;https://andreaidini.github.io/phme/wp-content/uploads/2016/03/1024px-IBM_Blue_Gene_P_supercomputer.jpg&#34; rel=&#34;lightbox[2298]&#34;&gt;&lt;img class=&#34;size-medium wp-image-2333&#34; src=&#34;https://andreaidini.github.io/phme/wp-content/uploads/2016/03/1024px-IBM_Blue_Gene_P_supercomputer-300x199.jpg&#34; alt=&#34;IBM Blue Gene Computer ad Argonne - fonte wikimedia&#34; width=&#34;300&#34; height=&#34;199&#34; srcset=&#34;http://www.phme.it/wp-content/uploads/2016/03/1024px-IBM_Blue_Gene_P_supercomputer-300x199.jpg 300w, http://www.phme.it/wp-content/uploads/2016/03/1024px-IBM_Blue_Gene_P_supercomputer.jpg 1024w&#34; sizes=&#34;(max-width: 300px) 100vw, 300px&#34; /&gt;&lt;/a&gt;&lt;figcaption id=&#34;caption-attachment-2333&#34; class=&#34;wp-caption-text&#34;&gt;IBM Blue Gene Computer ad Argonne - &lt;a href=&#34;https://upload.wikimedia.org/wikipedia/commons/thumb/d/d3/IBM_Blue_Gene_P_supercomputer.jpg/1024px-IBM_Blue_Gene_P_supercomputer.jpg&#34; rel=&#34;lightbox[2298]&#34;&gt;fonte wikimedia&lt;/a&gt;&lt;/figcaption&gt;&lt;/figure&gt; 
+&lt;p&gt;Da una domanda di &lt;em&gt;Gabriele Soranzo.&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;Il mondo informatico si &lt;a class=&#34;link&#34; href=&#34;http://www.phme.it/blog/2015/03/13/apple-watch-nuovo-macbook-e-la-legge-di-moore/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;evolve rapidamente&lt;/a&gt; per i consumatori. Ma nonostante questo determini prodotti sempre nuovi e con funzionalità differenti sugli scaffali dei negozi, non rende automaticamente obsoleto l&amp;rsquo;utilizzo tradizionale di sistemi di calcolo massivo. Al contrario il &lt;em&gt;&amp;ldquo;supercalcolo&amp;rdquo;&lt;/em&gt; svolto in sistemi appositamente costruiti per l&amp;rsquo;elaborazione di grandi dati &lt;a class=&#34;link&#34; href=&#34;http://www.phme.it/blog/2010/11/20/la-nuova-guerra-fredda-from-tons-to-flops/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;è sempre più usato&lt;/a&gt; per le esigenze della ricerca e industria moderna.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Perchè i processori hanno tanti core</title>
+      <link>https://andreaidini.github.io/phme/blog/2015/10/02/perche-i-processori-hanno-tanti-core/</link>
+      <pubDate>Fri, 02 Oct 2015 16:40:00 +0000</pubDate>
+      
+      <guid>https://andreaidini.github.io/phme/blog/2015/10/02/perche-i-processori-hanno-tanti-core/</guid>
+      <description>&lt;figure id=&#34;attachment_2020&#34; aria-describedby=&#34;caption-attachment-2020&#34; style=&#34;width: 300px&#34; class=&#34;wp-caption alignleft&#34;&gt;&lt;a href=&#34;https://andreaidini.github.io/phme/wp-content/uploads/2015/10/insideintel.jpg&#34; rel=&#34;lightbox[2019]&#34;&gt;&lt;img class=&#34;wp-image-2020 size-medium&#34; src=&#34;https://andreaidini.github.io/phme/wp-content/uploads/2015/10/insideintel-300x150.jpg&#34; alt=&#34;lo spaccato di un moderno processore&#34; width=&#34;300&#34; height=&#34;150&#34; srcset=&#34;http://www.phme.it/wp-content/uploads/2015/10/insideintel-300x150.jpg 300w, http://www.phme.it/wp-content/uploads/2015/10/insideintel.jpg 570w&#34; sizes=&#34;(max-width: 300px) 100vw, 300px&#34; /&gt;&lt;/a&gt;&lt;figcaption id=&#34;caption-attachment-2020&#34; class=&#34;wp-caption-text&#34;&gt;lo spaccato di un moderno processore, in cui si nota la memoria (cache), il processore grafico, e i 4 core.&lt;/figcaption&gt;&lt;/figure&gt; 
+&lt;p&gt;Una volta erano una stravaganza riservata a supercomputer, poi hanno sempre più preso piede anche fra i processori più comuni, oggigiorno praticamente ogni sistema più potente di una calcolatrice tascabile frutta la potenza di calcolo di più core.&lt;/p&gt;
+&lt;p&gt;Perfino il &lt;strong&gt;Chromecast&lt;/strong&gt;, che è una piccola chiavetta da 35€ da attaccare alla televisione per ricevere contenuti in streaming, è dotata di un &lt;strong&gt;processore 1.2GHz doppio core&lt;/strong&gt;, e una scheda grafica con diversi core paralleli.&lt;/p&gt;
+&lt;p&gt;Ma perchè questa molteplicità di core si è diffusa così tanto?&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Le Intelligenze Artificiali</title>
+      <link>https://andreaidini.github.io/phme/blog/2015/07/26/intelligenza-artificiale/</link>
+      <pubDate>Sun, 26 Jul 2015 19:54:52 +0000</pubDate>
+      
+      <guid>https://andreaidini.github.io/phme/blog/2015/07/26/intelligenza-artificiale/</guid>
+      <description>&lt;p&gt;L&amp;rsquo;intelligenza artificiale è uno dei più affascinanti argomenti messi in campo in questo periodo storico. Pochi quesiti toccano tante competenze e aspetti della cultura e società come la domanda &amp;ldquo;Può una macchina pensare?&amp;rdquo;.&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&amp;ldquo;Se un computer possa pensare è una faccenda non più interessante di quella riguardante se un sottomarino possa nuotare&amp;rdquo; - E. W. Dijkstra&lt;/p&gt;
+&lt;/blockquote&gt;</description>
+    </item>
+    
+    <item>
+      <title>Gli Androidi Sognano? (Pecore Elettriche)</title>
+      <link>https://andreaidini.github.io/phme/blog/2010/10/25/gli-androidi-sognano-pecore-elettriche/</link>
+      <pubDate>Mon, 25 Oct 2010 10:49:39 +0000</pubDate>
+      
+      <guid>https://andreaidini.github.io/phme/blog/2010/10/25/gli-androidi-sognano-pecore-elettriche/</guid>
+      <description>&lt;figure style=&#34;width: 347px&#34; class=&#34;wp-caption alignleft&#34;&gt;&lt;img src=&#34;http://upload.wikimedia.org/wikipedia/commons/1/17/ArtificialFictionBrain.png&#34; alt=&#34;&#34; width=&#34;347&#34; height=&#34;314&#34; /&gt;&lt;figcaption class=&#34;wp-caption-text&#34;&gt;da wikipedia&lt;/figcaption&gt;&lt;/figure&gt; 
+&lt;p&gt;Che differenza c&amp;rsquo;è tra un essere umano e un normale Personal Computer?&lt;br&gt;
+Forse poca. O almeno così pensano i numerosi scienziati dietro i progetti di ricerca sullo sviluppo di una vera e propria Intelligenza Artificiale all&amp;rsquo;altezza dei suoi creatori - nonché, ovviamente, coloro che sono disposti a conceder loro copiosi finanziamenti.&lt;/p&gt;
+&lt;p&gt;Blade Runner, i racconti di Asimov, A.I di Spielberg, e persino serie tv ( pensiamo a Battlestar Galactica) : l&amp;rsquo;idea della macchina pensante ha colonizzato l&amp;rsquo;immaginario dell&amp;rsquo;uomo del secondo Novecento e dell&amp;rsquo;inizio del nuovo millennio; tanto da rendere facilmente accettabile per l&amp;rsquo;uomo comune l&amp;rsquo;idea che essa possa effettivamente “venire alla luce” in tempi relativamente brevi.&lt;br&gt;
+Ma siamo sicuri che tanto ottimismo sia giustificato dallo stato dei fatti?&lt;br&gt;
+**&lt;/p&gt;</description>
+    </item>
+    
+  </channel>
+</rss>
