@@ -1,4 +1,4 @@
-baseurl: www.phme.it
+baseurl: http://www.phme.it
 #baseurl: https://andreaidini.github.io/phme/
 languageCode: it-it
 theme: hugo-theme-stack
@@ -99,7 +99,7 @@ menu:
 
         - identifier: WILT
           name: WILT
-          url: wilt.phme.it
+          url: http://wilt.phme.it
           weight: -99
           pre: user
 
