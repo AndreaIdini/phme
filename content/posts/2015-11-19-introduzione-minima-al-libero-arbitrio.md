@@ -106,7 +106,7 @@ A ciò aggiungi anche che oltre al determinismo, e con questo traccio un quadro 
 
 ### Comment by Andrea Idini on 2015-11-24 12:36:26 +0000
 Non ho ben capito.  
-Consideriamo un sistema in cui al momento <span class='MathJax_Preview'><img src='http://www.phme.it/wp-content/plugins/latex/cache/tex_69ac49315fb75559bc7125a373ed5735.gif' style='vertical-align: middle; border: none; ' class='tex' alt="" /></span> sono presenti tutte le cause che al momento <span class='MathJax_Preview'><img src='http://www.phme.it/wp-content/plugins/latex/cache/tex_76a9c0f8e913d97ec097e88ed8232da5.gif' style='vertical-align: middle; border: none; ' class='tex' alt="" /></span> potrebbero prefigurare molteplici effetti _a,b,c_ senza esclusione l'un l'altro.
+Consideriamo un sistema in cui al momento<span><img src='http://www.phme.it/wp-content/plugins/latex/cache/tex_69ac49315fb75559bc7125a373ed5735.gif' style='vertical-align: middle; border: none; ' class='tex' alt="" /></span> sono presenti tutte le cause che al momento <span class='MathJax_Preview'><img src='http://www.phme.it/wp-content/plugins/latex/cache/tex_76a9c0f8e913d97ec097e88ed8232da5.gif'/></span> potrebbero prefigurare molteplici effetti _a,b,c_ senza esclusione l'un l'altro.
 
 Cosa distingue a questo punto un sistema umano da uno non umano?
 
