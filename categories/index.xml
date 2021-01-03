@@ -2,89 +2,89 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Categories on Ph.Me</title>
-    <link>http://www.phme.it/categories/</link>
+    <link>https://www.phme.it/categories/</link>
     <description>Recent content in Categories on Ph.Me</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>it-it</language>
-    <lastBuildDate>Sun, 20 Dec 2020 18:01:53 +0000</lastBuildDate><atom:link href="http://www.phme.it/categories/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 20 Dec 2020 18:01:53 +0000</lastBuildDate><atom:link href="https://www.phme.it/categories/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Ph.Me</title>
-      <link>http://www.phme.it/categories/ph.me/</link>
+      <link>https://www.phme.it/categories/ph.me/</link>
       <pubDate>Sun, 20 Dec 2020 18:01:53 +0000</pubDate>
       
-      <guid>http://www.phme.it/categories/ph.me/</guid>
+      <guid>https://www.phme.it/categories/ph.me/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Meme</title>
-      <link>http://www.phme.it/categories/meme/</link>
+      <link>https://www.phme.it/categories/meme/</link>
       <pubDate>Mon, 19 Jun 2017 10:48:24 +0000</pubDate>
       
-      <guid>http://www.phme.it/categories/meme/</guid>
+      <guid>https://www.phme.it/categories/meme/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Ph.ringe</title>
-      <link>http://www.phme.it/categories/ph.ringe/</link>
+      <link>https://www.phme.it/categories/ph.ringe/</link>
       <pubDate>Tue, 06 Dec 2016 11:17:00 +0000</pubDate>
       
-      <guid>http://www.phme.it/categories/ph.ringe/</guid>
+      <guid>https://www.phme.it/categories/ph.ringe/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Ph.ysics</title>
-      <link>http://www.phme.it/categories/ph.ysics/</link>
+      <link>https://www.phme.it/categories/ph.ysics/</link>
       <pubDate>Tue, 06 Dec 2016 11:17:00 +0000</pubDate>
       
-      <guid>http://www.phme.it/categories/ph.ysics/</guid>
+      <guid>https://www.phme.it/categories/ph.ysics/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Media</title>
-      <link>http://www.phme.it/categories/media/</link>
+      <link>https://www.phme.it/categories/media/</link>
       <pubDate>Fri, 05 Aug 2016 11:00:33 +0000</pubDate>
       
-      <guid>http://www.phme.it/categories/media/</guid>
+      <guid>https://www.phme.it/categories/media/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Gallery</title>
-      <link>http://www.phme.it/categories/gallery/</link>
+      <link>https://www.phme.it/categories/gallery/</link>
       <pubDate>Sun, 03 Jul 2016 19:25:17 +0000</pubDate>
       
-      <guid>http://www.phme.it/categories/gallery/</guid>
+      <guid>https://www.phme.it/categories/gallery/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Ph.ilosophy</title>
-      <link>http://www.phme.it/categories/ph.ilosophy/</link>
+      <link>https://www.phme.it/categories/ph.ilosophy/</link>
       <pubDate>Sun, 12 Jun 2016 17:32:58 +0000</pubDate>
       
-      <guid>http://www.phme.it/categories/ph.ilosophy/</guid>
+      <guid>https://www.phme.it/categories/ph.ilosophy/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Articoli</title>
-      <link>http://www.phme.it/categories/articoli/</link>
+      <link>https://www.phme.it/categories/articoli/</link>
       <pubDate>Sun, 01 Mar 2015 08:14:56 +0000</pubDate>
       
-      <guid>http://www.phme.it/categories/articoli/</guid>
+      <guid>https://www.phme.it/categories/articoli/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Ph.oto</title>
-      <link>http://www.phme.it/categories/ph.oto/</link>
+      <link>https://www.phme.it/categories/ph.oto/</link>
       <pubDate>Sun, 01 Mar 2015 08:14:56 +0000</pubDate>
       
-      <guid>http://www.phme.it/categories/ph.oto/</guid>
+      <guid>https://www.phme.it/categories/ph.oto/</guid>
       <description></description>
     </item>
     
