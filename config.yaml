@@ -1,4 +1,4 @@
-baseurl: https://www.phme.it
+baseurl: www.phme.it
 #baseurl: https://andreaidini.github.io/phme/
 languageCode: it-it
 theme: hugo-theme-stack
@@ -33,7 +33,7 @@ params:
 
     footer:
         since: 2009
-        customText: "Per commenti, scrivimi ad andrea.idini@gmail.com. Static web, no cookies collected."
+        customText: "Per commenti, scrivimi ad andrea (punto) idini (at) gmail (punto) com. Static web, no cookies collected."
 
     dateFormat:
         published: Jan 02, 2006
@@ -99,7 +99,7 @@ menu:
 
         - identifier: WILT
           name: WILT
-          url: wilt/
+          url: wilt.phme.it
           weight: -99
           pre: user
 

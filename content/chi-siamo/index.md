@@ -54,6 +54,6 @@ Rilascio i diritti <a href="http://creativecommons.org/licenses/by-nc-nd/2.5/it/
 </span>
 
  [1]: http://www.matfys.lth.se/staff/andrea.idini
- [2]: https://royalsociety.org/people/andrea-idini-12742/
+ [2]: http://www.matfys.lth.se/staff/Andrea.Idini/projects/physics/the-nuclear-physics/
  [3]: http://www.="/indice-articoli-piu-apprezzati/
  [4]: http://www.="/informativa-cookies/
