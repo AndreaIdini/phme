@@ -2,19 +2,19 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>News on Ph.Me</title>
-    <link>www.phme.it/tags/news/</link>
+    <link>http://www.phme.it/tags/news/</link>
     <description>Recent content in News on Ph.Me</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>it-it</language>
-    <lastBuildDate>Fri, 24 Sep 2010 10:33:46 +0000</lastBuildDate><atom:link href="www.phme.it/tags/news/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 24 Sep 2010 10:33:46 +0000</lastBuildDate><atom:link href="http://www.phme.it/tags/news/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>[News]La fotolografia</title>
-      <link>www.phme.it/blog/2010/09/24/newsla-fotolografia/</link>
+      <link>http://www.phme.it/blog/2010/09/24/newsla-fotolografia/</link>
       <pubDate>Fri, 24 Sep 2010 10:33:46 +0000</pubDate>
       
-      <guid>www.phme.it/blog/2010/09/24/newsla-fotolografia/</guid>
+      <guid>http://www.phme.it/blog/2010/09/24/newsla-fotolografia/</guid>
       <description>&lt;p style=&#34;text-align: left;&#34;&gt;
-  Al di sopra delle novità presentate al photokina 2010 risiede una nuova classe di fotocamere, chiamate le plenottiche. Grazie a un trattamento dell&#39;immagine di tipo olografico (&lt;a href=&#34;www.phme.it/forum/showthread.php?tid=169&amp;pid=973#pid973&#34;&gt;su ph.forum la spiegazione del termine&lt;/a&gt;) con un singolo scatto queste fotocamere riescono ad immagazzinare un&#39;informazione tridimensionale accurata, che, oltre a generare immagini stereoscopiche permette, fra le altre cose, di cambiare inquadratura, prospettiva, fuoco.</description>
+  Al di sopra delle novità presentate al photokina 2010 risiede una nuova classe di fotocamere, chiamate le plenottiche. Grazie a un trattamento dell&#39;immagine di tipo olografico (&lt;a href=&#34;http://www.phme.it/forum/showthread.php?tid=169&amp;pid=973#pid973&#34;&gt;su ph.forum la spiegazione del termine&lt;/a&gt;) con un singolo scatto queste fotocamere riescono ad immagazzinare un&#39;informazione tridimensionale accurata, che, oltre a generare immagini stereoscopiche permette, fra le altre cose, di cambiare inquadratura, prospettiva, fuoco.</description>
     </item>
     
   </channel>
