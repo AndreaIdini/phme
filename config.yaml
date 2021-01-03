@@ -1,5 +1,5 @@
-#baseurl: http://www.phme.it
-baseurl: https://andreaidini.github.io/phme/
+baseurl: https://www.phme.it
+#baseurl: https://andreaidini.github.io/phme/
 languageCode: it-it
 theme: hugo-theme-stack
 #theme: hugo-theme-terminal
