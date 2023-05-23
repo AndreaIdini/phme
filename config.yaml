@@ -99,7 +99,7 @@ menu:
 
         - identifier: WILT
           name: WILT
-          url: http://wilt.phme.it
+          url: http://andreaidini.github.io/wilt/
           weight: -99
           pre: user
 
