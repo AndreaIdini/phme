@@ -2,28 +2,28 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Nuclei on Ph.Me</title>
-    <link>https://www.phme.it/tags/nuclei/</link>
+    <link>https://andreaidini.github.io/phme/tags/nuclei/</link>
     <description>Recent content in Nuclei on Ph.Me</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>it-it</language>
-    <lastBuildDate>Thu, 04 Feb 2010 21:58:32 +0000</lastBuildDate><atom:link href="https://www.phme.it/tags/nuclei/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 04 Feb 2010 21:58:32 +0000</lastBuildDate><atom:link href="https://andreaidini.github.io/phme/tags/nuclei/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Perchè usiamo gli Acceleratori?</title>
-      <link>https://www.phme.it/blog/2010/02/04/perche-usiamo-gli-acceleratori/</link>
+      <link>https://andreaidini.github.io/phme/blog/2010/02/04/perche-usiamo-gli-acceleratori/</link>
       <pubDate>Thu, 04 Feb 2010 21:58:32 +0000</pubDate>
       
-      <guid>https://www.phme.it/blog/2010/02/04/perche-usiamo-gli-acceleratori/</guid>
-      <description>&lt;figure style=&#34;width: 360px&#34; class=&#34;wp-caption alignleft&#34;&gt;&lt;a href=&#34;https://www.phme.it/wp-content/uploads/2010/02/GSI.jpg&#34; target=&#34;_blank&#34; rel=&#34;lightbox[346]&#34;&gt;&lt;img class=&#34;  &#34; title=&#34;GSI&#34; src=&#34;https://www.phme.it/wp-content/uploads/2010/02/GSI.jpg&#34; alt=&#34;&#34; width=&#34;360&#34; height=&#34;240&#34; /&gt;&lt;/a&gt;&lt;figcaption class=&#34;wp-caption-text&#34;&gt;Interno dell&#39;acceleratore lineare del GSI&lt;/figcaption&gt;&lt;/figure&gt; 
+      <guid>https://andreaidini.github.io/phme/blog/2010/02/04/perche-usiamo-gli-acceleratori/</guid>
+      <description>&lt;figure style=&#34;width: 360px&#34; class=&#34;wp-caption alignleft&#34;&gt;&lt;a href=&#34;https://andreaidini.github.io/phme/wp-content/uploads/2010/02/GSI.jpg&#34; target=&#34;_blank&#34; rel=&#34;lightbox[346]&#34;&gt;&lt;img class=&#34;  &#34; title=&#34;GSI&#34; src=&#34;https://andreaidini.github.io/phme/wp-content/uploads/2010/02/GSI.jpg&#34; alt=&#34;&#34; width=&#34;360&#34; height=&#34;240&#34; /&gt;&lt;/a&gt;&lt;figcaption class=&#34;wp-caption-text&#34;&gt;Interno dell&#39;acceleratore lineare del GSI&lt;/figcaption&gt;&lt;/figure&gt; 
 &lt;p&gt;Sto notando che, sebbene ci sia entusiasmo per le vicissitudini di LHC e di altre macchine simili, molti non hanno una vera percezione del &lt;span style=&#34;text-decoration: underline;&#34;&gt;perchè&lt;/span&gt; agli scienziati servano questi oggettini grossi, costosi e fichissimi. Questo porta nel migliore dei casi a un laissez faire &amp;ldquo;sapranno cosa fanno&amp;rdquo; , nel peggiore a una immotivata ostilità nei confronti della &amp;ldquo;Big Science&amp;rdquo;.&lt;/p&gt;
 &lt;p&gt;La situazione è questa: il nucleo atomico è un oggetto piccolo. 10 mila volte più piccolo degli atomi, che sono le dimensioni a cui può sondare la luce e quindi i mezzi &amp;ldquo;standard&amp;rdquo; di cui possiamo dotarci per investigare in modo diretto. Cercare di capire la natura del nucleo atomico e dei suoi componenti quindi è come cercare di capire il funzionamento di una automobile, senza però potersi avvicinare più di 200m.&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>Decadimento Alfa: fra scienza e tecnologia.</title>
-      <link>https://www.phme.it/blog/2009/12/05/decadimento-alfa-fra-scienza-e-tecnologia/</link>
+      <link>https://andreaidini.github.io/phme/blog/2009/12/05/decadimento-alfa-fra-scienza-e-tecnologia/</link>
       <pubDate>Sat, 05 Dec 2009 00:05:27 +0000</pubDate>
       
-      <guid>https://www.phme.it/blog/2009/12/05/decadimento-alfa-fra-scienza-e-tecnologia/</guid>
+      <guid>https://andreaidini.github.io/phme/blog/2009/12/05/decadimento-alfa-fra-scienza-e-tecnologia/</guid>
       <description>&lt;figure id=&#34;attachment_203&#34; aria-describedby=&#34;caption-attachment-203&#34; style=&#34;width: 345px&#34; class=&#34;wp-caption alignleft&#34;&gt;&lt;a href=&#34;http://ph3me.files.wordpress.com/2009/12/ionization_chamber1.jpg&#34; rel=&#34;lightbox[195]&#34;&gt;&lt;img class=&#34;size-full wp-image-203 &#34; title=&#34;Ionization_Chamber1&#34; src=&#34;http://ph3me.files.wordpress.com/2009/12/ionization_chamber1.jpg&#34; alt=&#34;&#34; width=&#34;345&#34; height=&#34;292&#34; /&gt;&lt;/a&gt;&lt;figcaption id=&#34;caption-attachment-203&#34; class=&#34;wp-caption-text&#34;&gt;Un particolare rilevatore di particelle Alfa, utilizzato per...&lt;/figcaption&gt;&lt;/figure&gt; 
 &lt;p&gt;Dopo tanto parlare di astrofisica passo al mio vero ambito di competenza: la fisica nucleare.&lt;/p&gt;
 &lt;p&gt;La radioattività α è stata la prima ad evendenziare le prorietà del nucleo atomico. Fu scoperta da Henri Becquerel nel 1896 quando si accorse che dei sali d&amp;rsquo;Uranio impressionavano le lastre fotografiche ancora sigillate. Studiando il fenomeno fu possibile dedurre la struttura dell&amp;rsquo;atomo (grazie agli &lt;a class=&#34;link&#34; href=&#34;http://it.wikipedia.org/wiki/Scattering_Rutherford&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
@@ -32,10 +32,10 @@
     
     <item>
       <title>Nucleosintesi: una pioggia di Oro sulla Galassia.</title>
-      <link>https://www.phme.it/blog/2009/11/10/nucleosintesi-una-pioggia-di-oro-sulla-galassia/</link>
+      <link>https://andreaidini.github.io/phme/blog/2009/11/10/nucleosintesi-una-pioggia-di-oro-sulla-galassia/</link>
       <pubDate>Mon, 09 Nov 2009 23:54:16 +0000</pubDate>
       
-      <guid>https://www.phme.it/blog/2009/11/10/nucleosintesi-una-pioggia-di-oro-sulla-galassia/</guid>
+      <guid>https://andreaidini.github.io/phme/blog/2009/11/10/nucleosintesi-una-pioggia-di-oro-sulla-galassia/</guid>
       <description>&lt;figure id=&#34;attachment_106&#34; aria-describedby=&#34;caption-attachment-106&#34; style=&#34;width: 360px&#34; class=&#34;wp-caption alignleft&#34;&gt;&lt;a href=&#34;http://ph3me.files.wordpress.com/2009/11/supernova.jpg&#34; rel=&#34;lightbox[104]&#34;&gt;&lt;img class=&#34;size-full wp-image-106&#34; title=&#34;Supernova&#34; src=&#34;http://ph3me.files.wordpress.com/2009/11/supernova.jpg&#34; alt=&#34;Supernova&#34; width=&#34;360&#34; height=&#34;270&#34; /&gt;&lt;/a&gt;&lt;figcaption id=&#34;caption-attachment-106&#34; class=&#34;wp-caption-text&#34;&gt;Nebulosa del Granchio, residuo di una Supernova.&lt;/figcaption&gt;&lt;/figure&gt; 
 &lt;blockquote&gt;
 &lt;p&gt;&lt;strong&gt;Tutto l&amp;rsquo;oro dell&amp;rsquo;universo viene dalle supernove&lt;/strong&gt;&lt;/p&gt;
